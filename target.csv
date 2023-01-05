@@ -1,0 +1,4 @@
+url;marker;regex;dataBaseName;tableName;columnName;
+https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post;[0-9]+ ваканси;[0-9]+;sun;itSector;vacancyMoscowJavaDev
+https://hh.ru/search/vacancy?text=C%2B%2B&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post;[0-9]+ ваканси;[0-9]+;sun;itSector;vacancyMoscowCplplDev
+https://hh.ru/search/vacancy?text=C%23&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post;[0-9]+ ваканси;[0-9]+;sun;itSector;vacancyMoscowCshDev
