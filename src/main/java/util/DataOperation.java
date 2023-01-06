@@ -6,6 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 
 public class DataOperation {
 	
@@ -38,4 +41,11 @@ public class DataOperation {
 		return true;
 	}
 
+	/* example YYYYMMDD for input */
+	public String getDate(String pattern) {
+		Calendar calendar = Calendar.getInstance();
+		DateFormat formatter = new SimpleDateFormat(pattern);
+		String date = formatter.format(calendar.getTime());
+		return date;
+	}
 }

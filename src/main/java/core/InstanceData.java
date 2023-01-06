@@ -1,8 +1,24 @@
 package core;
 
 public class InstanceData {
-	String url,marker,regex,tableData;
+	String url,marker,regex,tableData,value,columnName;
 
+	public synchronized String getColumnName() {
+		return columnName;
+	}
+
+	public synchronized void setColumnName(String columnName) {
+		this.columnName = columnName;
+	}
+	
+	public synchronized String getValue() {
+		return value;
+	}
+
+	public synchronized void setValue(String value) {
+		this.value = value;
+	}
+	
 	public synchronized String getUrl() {
 		return url;
 	}

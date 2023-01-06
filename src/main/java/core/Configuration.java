@@ -96,19 +96,26 @@ public class Configuration {
 	}
 	
 	public String csvParse() throws FileNotFoundException, IOException {
-		for (int i = 0; i < target.size(); i++) {
+		for (int i = 0; i < target.size() - 1; i++) {
 			
 			String[] csv = (dataOperation.readDataFromFile(target.get(i))).split("\\n");
 			
-				for (int j = 1; j < csv.length; j++) {
+			try {	
+			for (int j = 1; j < csv.length; j++) {
 					InstanceData id = new InstanceData();
 					String[] array = csv[j].split(";");
 //					url.add(array[0]);
 					id.setUrl(array[0]);
 					id.setMarker(array[1]);
 					id.setRegex(array[2]);
+					id.setColumnName(array[5]);
+//					id.setValue(j + "");
+//					System.out.println(array[5]);
 					instanceData.add(id);
 				}
+			} catch(ArrayIndexOutOfBoundsException e) {
+				
+			}
 		}
 		return "";
 	}
