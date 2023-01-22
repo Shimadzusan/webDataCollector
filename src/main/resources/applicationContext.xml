@@ -10,6 +10,25 @@
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
     
+    <bean id="configurationAlpha"
+        class="spring.ConfigurationAlpha">
+    </bean>
+    
+    <bean id="sourceAlpha"
+        class="spring.SourceAlpha">
+    </bean>
+    
+    <bean id="destinationAlpha"
+        class="spring.DestinationAlpha">
+    </bean>
+    
+    <bean id="controlModule"
+        class="spring.ControlModule">
+        <property name="config" ref="configurationAlpha"/>
+        <property name="source" ref="sourceAlpha"/>
+        <property name="destination" ref="destinationAlpha"/>
+    </bean>
+    
     <bean id="testBean"
         class="spring.TestBean">
         <constructor-arg value="Socrat"/>

@@ -17,11 +17,23 @@ public class Launch {
 //	        context.close();
 	        
 		/* classical approach without spring */
-	        ConfigurationAlpha ca = new ConfigurationAlpha();
-	        SourceAlpha sa = new SourceAlpha();
-	        DestinationAlpha da = new DestinationAlpha();
+//			ConfigurationAlpha ca = new ConfigurationAlpha();//version one
+//			Configuration ca1 = new ConfigurationAlpha();//version two
+//	        Configuration cb = new ConfigurationBetta();//version three
+//	        
+//	        SourceAlpha sa = new SourceAlpha();
+//	        DestinationAlpha da = new DestinationAlpha();
+//	        
+//	        ControlModule cm = new ControlModule(ca, sa, da);
+//	        cm.action();
 	        
-	        ControlModule cm = new ControlModule(ca, sa, da);
+	    /* next step objects from applicationContext */
+	        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+	        
+	        ConfigurationAlpha ca = context.getBean("configurationAlpha", ConfigurationAlpha.class);
+	        SourceAlpha sa = context.getBean("sourceAlpha", SourceAlpha.class);
+	        DestinationAlpha da = context.getBean("destinationAlpha", DestinationAlpha.class);
+	        ControlModule cm = context.getBean("controlModule", ControlModule.class);
 	        cm.action();
 	}
 

@@ -22,7 +22,7 @@ public class MySQLDatabase {
 	/* method executes connecting to data_base */
 	public static void conn(List<InstanceData> id) throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("");
+		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sun", "root", "09121982sakl");
 		System.out.println("connect to data_base ...complete");
 		instanceData = id;
 	}
