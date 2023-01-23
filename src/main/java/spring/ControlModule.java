@@ -13,6 +13,11 @@ public class ControlModule {
 		this.destination = destination;
 	}
 	
+	@Deprecated
+	public void someMethod() {
+		System.out.println("someMethod");
+	}
+	
 	public void action() {
 		String s = "";
 		s = s + config.getConfiguration() + " ";

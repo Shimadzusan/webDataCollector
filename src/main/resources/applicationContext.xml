@@ -14,6 +14,10 @@
         class="spring.ConfigurationAlpha">
     </bean>
     
+     <bean id="configurationBetta"
+        class="spring.ConfigurationBetta">
+    </bean>
+    
     <bean id="sourceAlpha"
         class="spring.SourceAlpha">
     </bean>
@@ -24,7 +28,7 @@
     
     <bean id="controlModule"
         class="spring.ControlModule">
-        <property name="config" ref="configurationAlpha"/>
+        <property name="config" ref="configurationBetta"/>
         <property name="source" ref="sourceAlpha"/>
         <property name="destination" ref="destinationAlpha"/>
     </bean>
@@ -47,6 +51,4 @@
         <property name="deal" value="${musicPlayer.deal}"/>
     </bean>
     
-    
-
 </beans>

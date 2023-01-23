@@ -1,5 +1,6 @@
 package spring;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Launch {
@@ -28,13 +29,23 @@ public class Launch {
 //	        cm.action();
 	        
 	    /* next step objects from applicationContext */
-	        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-	        
-	        ConfigurationAlpha ca = context.getBean("configurationAlpha", ConfigurationAlpha.class);
-	        SourceAlpha sa = context.getBean("sourceAlpha", SourceAlpha.class);
-	        DestinationAlpha da = context.getBean("destinationAlpha", DestinationAlpha.class);
-	        ControlModule cm = context.getBean("controlModule", ControlModule.class);
-	        cm.action();
+//	        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+//	        
+//	        Configuration cb = context.getBean("configurationBetta", ConfigurationBetta.class);//Singleton default! no Prototype
+//	        SourceAlpha sa = context.getBean("sourceAlpha", SourceAlpha.class);
+//	        DestinationAlpha da = context.getBean("destinationAlpha", DestinationAlpha.class);
+//	        ControlModule cm = context.getBean("controlModule", ControlModule.class);
+//	        cm.action();
+		
+		 /* next 3rd step objects to applicationContext fron SpringConfiguration.java */
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+        
+        Configuration cb = context.getBean("configurationBetta", ConfigurationBetta.class);//Singleton default! no Prototype
+        SourceAlpha sa = context.getBean("sourceAlpha", SourceAlpha.class);
+        DestinationAlpha da = context.getBean("destinationAlpha", DestinationAlpha.class);
+        ControlModule cm = context.getBean("controlModule", ControlModule.class);
+        cm.action();
+        //cm.someMethod();
 	}
 
 }
