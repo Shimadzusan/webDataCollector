@@ -22,7 +22,7 @@ public class MySQLDatabase {
 	/* method executes connecting to data_base */
 	public static void conn(List<InstanceData> id) throws ClassNotFoundException, SQLException {
 		Class.forName("com.mysql.jdbc.Driver");
-		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sun", "root", "09121982sakl");
+		connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sun", "", "");
 		System.out.println("connect to data_base ...complete");
 		instanceData = id;
 	}
@@ -60,7 +60,7 @@ public class MySQLDatabase {
 		columns = columns.substring(0, columns.length() - 1);
 		values = values.substring(0, values.length() - 1);
 		
-		String s = "insert itSector(date," + columns + ") values(" + var1.getDate("YYYYMMDD") + "," + values + ")";	
+		String s = "insert itSector(date," + columns + ") values(" + var1.getDate("YYYYMMdd") + "," + values + ")";	
 		System.out.println("buildRequest ...complete");
 		return s;
 	}

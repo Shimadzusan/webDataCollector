@@ -21,7 +21,7 @@ public class ControlModule {
 	public void action() {
 		String s = "";
 		s = s + config.getConfiguration() + " ";
-		s = s + source.getSource() + " ";
+		s = s + source.getDataFromSource() + " ";
 		s = s + destination.getDestination() + " ";
 		System.out.println(s);
 	}

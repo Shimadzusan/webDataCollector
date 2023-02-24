@@ -1,10 +1,16 @@
 package spring;
 
-public class ConfigurationAlpha implements Configuration  {
+public class ConfigurationAlpha implements Configuration {
 
 	@Override
 	public String getConfiguration() {
 		return "getConfiguration";
+	}
+
+	@Override
+	public String readConfiguration() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

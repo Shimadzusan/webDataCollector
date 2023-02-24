@@ -6,4 +6,10 @@ public class ConfigurationBetta implements Configuration  {
 	public String getConfiguration() {
 		return "getConfigurationFromBetta";
 	}
+
+	@Override
+	public String readConfiguration() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

@@ -1,7 +1,10 @@
 package network;
 
 import java.io.IOException;
+import java.net.HttpCookie;
+import java.util.List;
 
+import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 

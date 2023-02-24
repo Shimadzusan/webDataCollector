@@ -1,5 +1,6 @@
 package spring;
 
 public interface Source {
-	String getSource();
+	boolean setConfigurationData();		//	..logical input
+	String getDataFromSource();					//	..logical output
 }

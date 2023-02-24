@@ -38,12 +38,12 @@ public class Launch {
 //	        cm.action();
 		
 		 /* next 3rd step objects to applicationContext fron SpringConfiguration.java */
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(SpringConfiguration.class);
+        AnnotationConfigApplicationContext springContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         
-        Configuration cb = context.getBean("configurationBetta", ConfigurationBetta.class);//Singleton default! no Prototype
-        SourceAlpha sa = context.getBean("sourceAlpha", SourceAlpha.class);
-        DestinationAlpha da = context.getBean("destinationAlpha", DestinationAlpha.class);
-        ControlModule cm = context.getBean("controlModule", ControlModule.class);
+        Configuration cd = springContext.getBean("configurationDelta", ConfigurationDelta.class);//Singleton default! no Prototype
+        SourceAlpha sa = springContext.getBean("sourceAlpha", SourceAlpha.class);
+        DestinationAlpha da = springContext.getBean("destinationAlpha", DestinationAlpha.class);
+        ControlModule cm = springContext.getBean("controlModule", ControlModule.class);
         cm.action();
         //cm.someMethod();
 	}

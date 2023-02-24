@@ -1,5 +1,8 @@
 package spring;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -21,6 +24,11 @@ public class SpringConfiguration {
 	}
 	
 	@Bean
+	public ConfigurationDelta configurationDelta() throws FileNotFoundException, IOException {
+		return new ConfigurationDelta("");
+	}
+	
+	@Bean
 	public SourceAlpha sourceAlpha() {
 		return new SourceAlpha();
 	}
@@ -31,9 +39,9 @@ public class SpringConfiguration {
 	}
 	
 	@Bean
-	public ControlModule controlModule() {
+	public ControlModule controlModule() throws FileNotFoundException, IOException {
 		/* dependency injection instead @Autowired */
-		return new ControlModule(configurationAlpha(), sourceAlpha(), destinationAlpha());
+		return new ControlModule(configurationDelta(), sourceAlpha(), destinationAlpha());
 	}
 
 }
