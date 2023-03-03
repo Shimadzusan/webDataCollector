@@ -16,8 +16,7 @@ public class DataOperation {
 		String result = "";
 		String line;
 	        // defaultCharBufferSize = 8192; or 8k
-	        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
-	            
+	        try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {  
 	            while ((line = br.readLine()) != null) {
 	               result = result + line + "\n";
 	            }

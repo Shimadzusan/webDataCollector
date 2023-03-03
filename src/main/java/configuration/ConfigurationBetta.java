@@ -3,8 +3,9 @@ package configuration;
 public class ConfigurationBetta implements Configuration  {
 
 	@Override
-	public String getConfiguration() {
-		return "getConfigurationFromBetta";
+	public ConfigurationObject getConfiguration() {
+		System.out.println("getConfigurationFromBetta");
+		return null;
 	}
 
 	@Override

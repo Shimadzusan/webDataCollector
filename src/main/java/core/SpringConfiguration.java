@@ -16,8 +16,9 @@ import org.springframework.context.annotation.ComponentScan;
 
 @Configuration
 @ComponentScan({"core", "source", "destination"})
-@PropertySource("musicPlayer.properties")
+//@PropertySource("musicPlayer.properties")
 public class SpringConfiguration {
+	String configurationFile = "configurationWebDataCollector.xml";
 	
 	@Bean
 	public ConfigurationAlpha configurationAlpha() {
@@ -31,7 +32,7 @@ public class SpringConfiguration {
 	
 	@Bean
 	public ConfigurationDelta configurationDelta() throws FileNotFoundException, IOException {
-		return new ConfigurationDelta("");
+		return new ConfigurationDelta(configurationFile);
 	}
 	
 	@Bean
@@ -40,8 +41,8 @@ public class SpringConfiguration {
 	}
 	
 	@Bean
-	public SourceWeb sourceWeb() {
-		return new SourceWeb();
+	public SourceWeb sourceWeb() throws FileNotFoundException, IOException {
+		return new SourceWeb(configurationDelta());
 	}
 	
 	@Bean

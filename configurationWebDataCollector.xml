@@ -2,12 +2,12 @@
 <configuration>
   <cases>
     <case>
-      <fileConfig>target.csv</fileConfig>
+      <fileConfig>headHunter.csv</fileConfig>
       <thread>8</thread>
       <mode>test</mode>
     </case>
 	<case>
-      <fileConfig>targetHeadHunter.csv</fileConfig>
+      <fileConfig>avito.csv</fileConfig>
       <thread>4</thread>
       <mode>test</mode>
 	</case>

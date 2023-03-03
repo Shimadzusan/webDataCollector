@@ -23,11 +23,7 @@ public class ControlModule {
 	}
 	
 	public void action() {
-		String s = "";
-		s = s + config.getConfiguration() + " ";
-		s = s + source.getDataFromSource() + " ";
-		s = s + destination.getDestination() + " ";
-		System.out.println(s);
+		source.getDataFromSource();
 	}
 	
 	public synchronized Configuration getConfig() {

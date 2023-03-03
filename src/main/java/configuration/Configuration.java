@@ -1,6 +1,6 @@
 package configuration;
 
 public interface Configuration {
-	String getConfiguration();
+	ConfigurationObject getConfiguration();
 	String readConfiguration();
 }

@@ -1,8 +1,13 @@
 package debug;
 
+import java.io.StringReader;
 import java.sql.SQLException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
 
 import network.HttpRequest;
 import util.DataOperation;
@@ -28,8 +33,9 @@ public class Debug {
 //		String text = new HttpRequest().getWebText(url);
 //		System.out.println(text);
 		
-		System.out.println(buildRequest());
+		//System.out.println(buildRequest());
 	
+		xmlToJavaObject();
 	}
 	
 	public static String buildRequest() throws ClassNotFoundException, SQLException {
@@ -41,5 +47,48 @@ public class Debug {
 		String s = "insert itSector(date," + columns + ") values(" + var1.getDate("YYYYMMdd") + "," + values + ")";	
 		System.out.println("buildRequest ...complete");
 		return s;
+	}
+	
+	public static void xmlToJavaObject() {
+		System.out.println("**--");
+		String xmlString = "<configuration>\r\n" + 
+				"  <cases>\r\n" + 
+				"    <case>\r\n" + 
+				"      <fileConfig>target.csv</fileConfig>\r\n" + 
+				"      <thread>8</thread>\r\n" + 
+				"      <mode>test</mode>\r\n" + 
+				"    </case>\r\n" + 
+				"	<case>\r\n" + 
+				"      <fileConfig>avito.csv</fileConfig>\r\n" + 
+				"      <thread>4</thread>\r\n" + 
+				"      <mode>test</mode>\r\n" + 
+				"	</case>\r\n" + 
+				"  </cases>\r\n" + 
+				"  <dataBase>\r\n" + 
+				"	  <login>admin</login>\r\n" + 
+				"	  <password>pass</password>\r\n" + 
+				"  </dataBase>\r\n" + 
+				" </configuration>";
+			 
+			JAXBContext jaxbContext;
+			
+			try
+			{
+			  jaxbContext = JAXBContext.newInstance(ConfigurationObject.class, Case.class, Cases.class);        
+			 
+			  Unmarshaller jaxbUnmarshaller = jaxbContext.createUnmarshaller();
+			 
+			  ConfigurationObject configurationObject = (ConfigurationObject) jaxbUnmarshaller.unmarshal(new StringReader(xmlString));
+			  //Case c = configurationObject.getCases()[1];
+			  Cases cc = configurationObject.getCases();
+			Case c = cc.getCases()[0];
+			 ////System.out.println(configurationObject.getCases().length);
+			  System.out.println(c.getFileConfig());
+			}
+			catch (JAXBException e) 
+			{
+			  e.printStackTrace();
+			}
+		
 	}
 }

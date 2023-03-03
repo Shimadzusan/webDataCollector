@@ -2,14 +2,18 @@ package source;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import configuration.ConfigurationObject;
 import network.HttpRequest;
 import source.Source;
 
 public class SourceAlpha implements Source {
 	String data = "";
+	ConfigurationObject configurationObject;
 
 	@Override
-	public boolean setConfigurationData() {
+	public boolean setConfigurationData(ConfigurationObject configurationObject) {
+		this.configurationObject = configurationObject;
 		return true;
 	}
 	
