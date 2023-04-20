@@ -29,7 +29,7 @@ public class HttpRequest {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-		String html = doc.text(); //Исходный текст
+		String html = doc.html(); //html
 		return html;
 	}
 

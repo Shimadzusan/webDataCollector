@@ -109,3 +109,185 @@ INFO  | 2023-02-26 15:23:54 | [main] configuration.ConfigurationDelta (Configura
 INFO  | 2023-02-26 15:23:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
 INFO  | 2023-02-26 15:23:54 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
 INFO  | 2023-02-26 15:23:54 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:04:48 | [main] core.Launch (Launch.java:11) - start version 2.0
+WARN  | 2023-04-16 21:04:48 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationDelta' defined in core.SpringConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [configuration.ConfigurationDelta]: Factory method 'configurationDelta' threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	The import javax.xml.bind cannot be resolved
+	The import javax.xml.bind cannot be resolved
+	The import javax.xml.bind cannot be resolved
+	JAXBContext cannot be resolved to a type
+	JAXBContext cannot be resolved
+	Unmarshaller cannot be resolved to a type
+	JAXBException cannot be resolved to a type
+	The method getConfiguration() of type ConfigurationDelta must override a superclass method
+	The method readConfiguration() of type ConfigurationDelta must override a superclass method
+
+INFO  | 2023-04-16 21:10:31 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:10:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:10:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:10:32 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:10:32 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:17:22 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:17:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:17:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:17:22 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:17:22 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:19:23 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:19:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:19:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:19:24 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:19:24 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:22:26 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:22:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:22:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:22:27 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:22:27 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:23:46 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:23:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:23:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:23:46 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:23:46 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:25:45 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:25:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:25:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:25:45 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:25:45 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:28:21 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:28:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:28:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:28:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 21:28:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 21:28:22 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:28:22 | [main] source.SourceWeb (SourceWeb.java:70) - classLogic successfully completed
+INFO  | 2023-04-16 21:32:11 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 21:32:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 21:32:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 21:32:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 21:32:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 21:32:11 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 21:32:12 | [main] source.SourceWeb (SourceWeb.java:73) - classLogic successfully completed
+INFO  | 2023-04-16 22:12:08 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:12:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:12:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:12:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:12:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:12:09 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 22:15:57 | [main] source.SourceWeb (SourceWeb.java:73) - classLogic successfully completed
+INFO  | 2023-04-16 22:17:38 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:17:38 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:17:38 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:17:38 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:17:38 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:17:38 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 22:17:39 | [main] source.SourceWeb (SourceWeb.java:73) - classLogic successfully completed
+INFO  | 2023-04-16 22:25:45 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:25:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:25:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:25:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:25:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:25:46 | [main] source.SourceWeb (SourceWeb.java:41) - start classLogic
+INFO  | 2023-04-16 22:25:47 | [main] source.SourceWeb (SourceWeb.java:73) - classLogic successfully completed
+INFO  | 2023-04-16 22:34:26 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:34:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:34:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:34:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:34:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:34:26 | [main] source.SourceWeb (SourceWeb.java:47) - start classLogic
+INFO  | 2023-04-16 22:34:27 | [main] source.SourceWeb (SourceWeb.java:82) - classLogic successfully completed
+INFO  | 2023-04-16 22:38:18 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:38:19 | [main] source.SourceWeb (SourceWeb.java:47) - start classLogic
+INFO  | 2023-04-16 22:38:19 | [main] source.SourceWeb (SourceWeb.java:82) - classLogic successfully completed
+INFO  | 2023-04-16 22:40:22 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:40:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:40:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:40:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:40:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:40:22 | [main] source.SourceWeb (SourceWeb.java:47) - start classLogic
+INFO  | 2023-04-16 22:40:23 | [main] source.SourceWeb (SourceWeb.java:82) - classLogic successfully completed
+INFO  | 2023-04-16 22:49:46 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:49:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:49:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:49:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:49:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:49:46 | [main] source.SourceWeb (SourceWeb.java:55) - start classLogic
+INFO  | 2023-04-16 22:49:46 | [main] source.SourceWeb (SourceWeb.java:94) - classLogic successfully completed
+INFO  | 2023-04-16 22:51:18 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:51:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:51:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:51:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:51:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:51:19 | [main] source.SourceWeb (SourceWeb.java:55) - start classLogic
+INFO  | 2023-04-16 22:51:25 | [main] source.SourceWeb (SourceWeb.java:95) - classLogic successfully completed
+INFO  | 2023-04-16 22:56:57 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:56:57 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:56:57 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:56:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:56:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:56:58 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-16 22:56:59 | [main] source.SourceWeb (SourceWeb.java:108) - classLogic successfully completed
+INFO  | 2023-04-16 22:57:39 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:57:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:57:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:57:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:57:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:57:39 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-16 22:57:41 | [main] source.SourceWeb (SourceWeb.java:109) - classLogic successfully completed
+INFO  | 2023-04-16 22:58:41 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 22:58:41 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 22:58:41 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 22:58:41 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 22:58:41 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 22:58:41 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-16 22:58:43 | [main] source.SourceWeb (SourceWeb.java:109) - classLogic successfully completed
+INFO  | 2023-04-16 23:02:01 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 23:02:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 23:02:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 23:02:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 23:02:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 23:02:01 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-16 23:02:03 | [main] source.SourceWeb (SourceWeb.java:109) - classLogic successfully completed
+INFO  | 2023-04-16 23:07:35 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-16 23:07:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-16 23:07:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-16 23:07:36 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-16 23:07:36 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-16 23:07:36 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-16 23:07:38 | [main] source.SourceWeb (SourceWeb.java:109) - classLogic successfully completed
+INFO  | 2023-04-18 10:49:59 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-18 10:49:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-18 10:49:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-18 10:49:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-18 10:49:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-18 10:49:59 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-18 10:50:00 | [main] source.SourceWeb (SourceWeb.java:111) - classLogic successfully completed
+INFO  | 2023-04-18 10:53:10 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-18 10:53:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-18 10:53:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-18 10:53:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-18 10:53:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-18 10:53:10 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-18 10:53:12 | [main] source.SourceWeb (SourceWeb.java:111) - classLogic successfully completed
+INFO  | 2023-04-18 15:08:36 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-18 15:08:36 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-18 15:08:36 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-18 15:08:36 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-18 15:08:36 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-18 15:08:36 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-18 15:08:47 | [main] source.SourceWeb (SourceWeb.java:113) - classLogic successfully completed
+INFO  | 2023-04-18 15:11:40 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-18 15:11:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-18 15:11:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-18 15:11:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-18 15:11:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-18 15:11:41 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-18 15:11:51 | [main] source.SourceWeb (SourceWeb.java:113) - classLogic successfully completed
+INFO  | 2023-04-18 15:24:16 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-18 15:24:16 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:43) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-18 15:24:16 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:45) - reading configuration successfully completed
+INFO  | 2023-04-18 15:24:16 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:89) - initialization configurationObject successfully completed
+INFO  | 2023-04-18 15:24:16 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:90) - amount cases: 2
+INFO  | 2023-04-18 15:24:16 | [main] source.SourceWeb (SourceWeb.java:58) - start classLogic
+INFO  | 2023-04-18 15:24:18 | [main] source.SourceWeb (SourceWeb.java:102) - classLogic successfully completed

@@ -9,7 +9,7 @@ public class Launch {
 
 	public static void main(String[] args) {
 		LOG.info("start version 2.0");
-		/* next 3rd step objects to applicationContext fron SpringConfiguration.java */
+		/* next 3rd step, objects to applicationContext from SpringConfiguration.java */
         AnnotationConfigApplicationContext springContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         ControlModule cm = springContext.getBean("controlModule", ControlModule.class);
         cm.action();
