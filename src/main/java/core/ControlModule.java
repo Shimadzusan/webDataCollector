@@ -1,6 +1,7 @@
 package core;
 
 import configuration.Configuration;
+import configuration.ConfigurationObject;
 import destination.Destination;
 import source.Source;
 
@@ -23,7 +24,12 @@ public class ControlModule {
 	}
 	
 	public void action() {
-		source.getDataFromSource();
+		ConfigurationObject configurationObject = this.config.getConfiguration();
+		for (int i = 0; i < configurationObject.getListCase().size(); i++) {
+			
+		source.getDataFromSource(i);
+		destination.sendData(i);
+		}
 	}
 	
 	public synchronized Configuration getConfig() {

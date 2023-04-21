@@ -9,7 +9,7 @@
 	<case>
       <fileConfig>avito.csv</fileConfig>
       <thread>4</thread>
-      <mode>test</mode>
+      <mode>standard</mode>
 	</case>
   </cases>
   <dataBase>

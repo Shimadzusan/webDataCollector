@@ -7,4 +7,9 @@ public class DestinationAlpha implements Destination {
 		return "getDestination";
 	}
 
+	@Override
+	public boolean sendData(int number) {
+		return false;
+	}
+
 }

@@ -10,6 +10,7 @@ import configuration.ConfigurationAlpha;
 import configuration.ConfigurationBetta;
 import configuration.ConfigurationDelta;
 import destination.DestinationAlpha;
+import destination.DestinationFile;
 import source.SourceAlpha;
 import source.SourceWeb;
 import org.springframework.context.annotation.ComponentScan;
@@ -51,9 +52,14 @@ public class SpringConfiguration {
 	}
 	
 	@Bean
+	public DestinationFile destinationFile() throws FileNotFoundException, IOException {
+		return new DestinationFile(configurationDelta());
+	}
+	
+	@Bean
 	public ControlModule controlModule() throws FileNotFoundException, IOException {
 		/* dependency injection instead @Autowired */
-		return new ControlModule(configurationDelta(), sourceWeb(), destinationAlpha());
+		return new ControlModule(configurationDelta(), sourceWeb(), destinationFile());
 	}
 
 }

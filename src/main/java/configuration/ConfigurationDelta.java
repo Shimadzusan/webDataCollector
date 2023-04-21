@@ -28,14 +28,13 @@ import util.DataOperation;
 
 /** input: file with configurations data 
  * 	output: java object with configurations 
- * 	This class implements one from many possibility extracting data from configurations file
+ * 	This class ConfigurationDelta implements one from many possibility extracting data from configurations file
  * 	to javaObject */
 public class ConfigurationDelta implements Configuration {
 	private final Logger LOG = (Logger) LogManager.getLogger(ConfigurationDelta.class);
 	String configurationFile = "";
 	List<Case> listCase = new ArrayList<Case>();
 	ConfigurationObject configurationObject = new ConfigurationObject();
-//	List<InstanceData> instanceData = new ArrayList<InstanceData>();
 	DataOperation dataOperation = new DataOperation();
 	
 	public ConfigurationDelta(String configurationFile) throws FileNotFoundException, IOException {
@@ -44,7 +43,7 @@ public class ConfigurationDelta implements Configuration {
 		String xmlString = dataOperation.readDataFromFile(configurationFile);
 		LOG.info("reading configuration successfully completed");
 		
-		/* initialization evry case from configurationFile */ 
+		/* initialization every case from configurationFile */ 
 		JAXBContext jaxbContext;		
 		try {
 			jaxbContext = JAXBContext.newInstance(ConfigurationObject.class, Case.class, Cases.class); 
@@ -52,20 +51,18 @@ public class ConfigurationDelta implements Configuration {
 			ConfigurationObject configurationObject = (ConfigurationObject) jaxbUnmarshaller.unmarshal(new StringReader(xmlString));
 			Cases cases = configurationObject.getCases();
 			
-//			List<Case> listCase = new ArrayList<Case>();
-			
 			for (int i = 0; i < cases.getCases().length; i++) {
 				List<InstanceData> instanceData = new ArrayList<InstanceData>();
 				Case casse = cases.getCases()[i];
-				System.out.println(casse.getFileConfig());
-				System.out.println(casse.getThread());
-				System.out.println(casse.getMode());
+//				System.out.println(casse.getFileConfig());
+//				System.out.println(casse.getThread());
+//				System.out.println(casse.getMode());
 				
 				//init instanceData..
 				String[] csv = (dataOperation.readDataFromFile(casse.getFileConfig())).split("\\n");
 				
 				try {	
-				for (int j = 1; j < csv.length; j++) {
+					for (int j = 1; j < csv.length; j++) {
 						InstanceData id = new InstanceData();
 						String[] array = csv[j].split(";");
 						id.setUrl(array[0]);
@@ -73,16 +70,11 @@ public class ConfigurationDelta implements Configuration {
 						id.setRegex(array[2]);
 						id.setColumnName(array[5]);
 						instanceData.add(id);
-						//casse.setListInstanceData(instanceData);
 					}
-				
-				} catch(ArrayIndexOutOfBoundsException e) {
-					
-				}
+				} catch(ArrayIndexOutOfBoundsException e) {}
 				
 				casse.setListInstanceData(instanceData);
 				listCase.add(casse);
-//				configurationObject.setListCase(listCase);
 			}
 			this.configurationObject.setListCase(listCase);
 		
@@ -99,7 +91,6 @@ public class ConfigurationDelta implements Configuration {
 
 	@Override
 	public String readConfiguration() {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	

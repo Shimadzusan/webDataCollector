@@ -7,17 +7,17 @@ import configuration.ConfigurationObject;
 import network.HttpRequest;
 import source.Source;
 
-public class SourceAlpha implements Source {
+//public class SourceAlpha implements Source {
+public class SourceAlpha {
 	String data = "";
 	ConfigurationObject configurationObject;
 
-	@Override
 	public boolean setConfigurationData(ConfigurationObject configurationObject) {
 		this.configurationObject = configurationObject;
 		return true;
 	}
 	
-	@Override
+
 	public String getDataFromSource() {
 		classLogic();
 		return "getSource: " + data;
