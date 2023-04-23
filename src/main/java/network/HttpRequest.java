@@ -13,6 +13,19 @@ public class HttpRequest {
 	
 	public String getWebText(String url) {
 		Document doc = null;
+			String userAgent = "Mozilla/5.0";
+				try {
+					doc = Jsoup.connect(url).userAgent(userAgent).get();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		String webText = doc.text(); //Исходный текст
+		return webText;
+	}
+	
+	public String getWebText2(String url) {
+		Document doc = null;
 			try {
 				doc = Jsoup.connect(url).get();
 			} catch (IOException e) {

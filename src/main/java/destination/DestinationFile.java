@@ -38,6 +38,7 @@ public class DestinationFile implements Destination {
 		String dest = "";
 		if(number == 0)dest = "resultItSector.csv";
 		if(number == 1)dest = "resultRealtySector.csv";
+		if(number == 2)dest = "resultGlassdoor.csv";
 		
 		try {
 			dataOperation.writeDataToFile(dest, dataOperation.readDataFromFile(dest) + data);

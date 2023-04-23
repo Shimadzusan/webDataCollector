@@ -11,6 +11,11 @@
       <thread>4</thread>
       <mode>standard</mode>
 	</case>
+	<case>
+      <fileConfig>glassdoor.csv</fileConfig>
+      <thread>2</thread>
+      <mode>standard</mode>
+	</case>
   </cases>
   <dataBase>
 	  <login>admin</login>
