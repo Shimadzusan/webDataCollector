@@ -810,3 +810,45 @@ INFO  | 2023-04-23 16:28:35 | [main] destination.DestinationFile (DestinationFil
 INFO  | 2023-04-23 16:28:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
 INFO  | 2023-04-23 16:28:53 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
 INFO  | 2023-04-23 16:28:53 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent
+INFO  | 2023-04-24 09:06:25 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-24 09:06:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:42) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-24 09:06:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:44) - reading configuration successfully completed
+INFO  | 2023-04-24 09:06:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:81) - initialization configurationObject successfully completed
+INFO  | 2023-04-24 09:06:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:82) - amount cases: 3
+INFO  | 2023-04-24 09:06:26 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-24 09:07:08 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-24 09:07:08 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultItSector.csv sent
+INFO  | 2023-04-24 09:07:08 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-24 09:07:17 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-24 09:07:17 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-24 09:07:17 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-24 09:07:47 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-24 09:07:47 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent
+INFO  | 2023-04-24 20:09:05 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-24 20:09:06 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:42) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-24 20:09:06 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:44) - reading configuration successfully completed
+INFO  | 2023-04-24 20:09:06 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:81) - initialization configurationObject successfully completed
+INFO  | 2023-04-24 20:09:06 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:82) - amount cases: 3
+INFO  | 2023-04-24 20:09:06 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-24 20:09:48 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-24 20:09:48 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultItSector.csv sent
+INFO  | 2023-04-24 20:09:48 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-24 20:09:59 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-24 20:09:59 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-24 20:09:59 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-24 20:10:20 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-24 20:10:20 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent
+INFO  | 2023-04-25 10:00:21 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-25 10:00:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:42) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-25 10:00:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:44) - reading configuration successfully completed
+INFO  | 2023-04-25 10:00:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:81) - initialization configurationObject successfully completed
+INFO  | 2023-04-25 10:00:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:82) - amount cases: 3
+INFO  | 2023-04-25 10:00:22 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-25 10:01:08 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-25 10:01:08 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultItSector.csv sent
+INFO  | 2023-04-25 10:01:08 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-25 10:01:18 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-25 10:01:18 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-25 10:01:18 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-25 10:01:35 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-25 10:01:35 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent

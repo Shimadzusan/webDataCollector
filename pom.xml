@@ -39,6 +39,7 @@
 	    <artifactId>javassist</artifactId>
 	    <version>3.25.0-GA</version>
 	</dependency>
+	
     <dependency>
 	      <groupId>junit</groupId>
 	      <artifactId>junit</artifactId>

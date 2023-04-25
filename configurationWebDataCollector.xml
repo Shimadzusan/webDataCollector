@@ -21,4 +21,8 @@
 	  <login>admin</login>
 	  <password>pass</password>
   </dataBase>
+  <runConfiguration>
+	  <logging>extended</logging>
+	  <performanceMonitoring>off</performanceMonitoring>
+  </runConfiguration>
  </configuration>

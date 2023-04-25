@@ -1,0 +1,8 @@
+url;marker;regex;dataBaseName;tableName;columnName
+https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Москве.* Недвижимость;[0-9]+;wdc;realtySector;spb
+https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Санкт-Петербурге.* Недвижимость;[0-9]+;wdc;realtySector;spb
+https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Новосибирске.* Недвижимость;[0-9]+;wdc;realtySector;spb
+https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Екатеринбурге.* Недвижимость;[0-9]+;wdc;realtySector;spb
+https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Казани.* Недвижимость;[0-9]+;wdc;realtySector;spb
+https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Волгограде.* Недвижимость;[0-9]+;wdc;realtySector;spb
+https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Хабаровске.* Недвижимость;[0-9]+;wdc;realtySector;spb

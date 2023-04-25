@@ -37,6 +37,8 @@ public class ConfigurationDelta implements Configuration {
 	ConfigurationObject configurationObject = new ConfigurationObject();
 	DataOperation dataOperation = new DataOperation();
 	
+	public ConfigurationDelta() {}
+	
 	public ConfigurationDelta(String configurationFile) throws FileNotFoundException, IOException {
 		this.configurationFile = configurationFile;
 		LOG.info("start reading configuration, file: " + configurationFile);

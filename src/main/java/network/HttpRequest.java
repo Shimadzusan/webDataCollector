@@ -1,10 +1,6 @@
 package network;
 
 import java.io.IOException;
-import java.net.HttpCookie;
-import java.util.List;
-
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -13,21 +9,9 @@ public class HttpRequest {
 	
 	public String getWebText(String url) {
 		Document doc = null;
-			String userAgent = "Mozilla/5.0";
-				try {
-					doc = Jsoup.connect(url).userAgent(userAgent).get();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-		String webText = doc.text(); //Исходный текст
-		return webText;
-	}
-	
-	public String getWebText2(String url) {
-		Document doc = null;
+		String userAgent = "Mozilla/5.0";
 			try {
-				doc = Jsoup.connect(url).get();
+				doc = Jsoup.connect(url).userAgent(userAgent).get();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

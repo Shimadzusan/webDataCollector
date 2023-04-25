@@ -11,10 +11,8 @@ public class Launch {
 		LOG.info("start version 2.0");
 		/* next 3rd step, objects to applicationContext from SpringConfiguration.java */
         AnnotationConfigApplicationContext springContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
-        ControlModule cm = springContext.getBean("controlModule", ControlModule.class);
-        cm.action();
-        
-        
+        ControlModule controlModule = springContext.getBean("controlModule", ControlModule.class);
+        controlModule.action();
         //cm.someMethod();
 	}
 

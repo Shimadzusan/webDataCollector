@@ -1,6 +1,7 @@
 package debug;
 
 import java.sql.SQLException;
+import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,6 +11,7 @@ import javax.xml.bind.Unmarshaller;
 
 import network.HttpRequest;
 import util.DataOperation;
+import util.LocalReflect;
 
 import java.net.*;
 import java.io.*;
@@ -38,7 +40,20 @@ public class Debug {
 		//System.out.println(buildRequest());
 	
 //		xmlToJavaObject();
-		glassDoor();
+//		glassDoor();
+//		all();
+		localReflect();
+	}
+	
+	public static void localReflect() throws FileNotFoundException, IOException {
+		LocalReflect lr = new LocalReflect();
+	}
+	
+	public static void all() {
+		Integer z = new Integer(5);
+		Properties props = System.getProperties();
+		//System.out.println(props);
+		System.out.println(System.getenv());
 	}
 	
 	public static void glassDoor() throws IOException {
@@ -49,6 +64,8 @@ public class Debug {
 		String url = "https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox";
 		String text = new HttpRequest().getWebText(url);
 		System.out.println(text);
+		Integer x = new Integer(2);
+	
 		
 		String marker = "in United States .* jobs Most Relevant";
 		String regex = "[0-9]+";

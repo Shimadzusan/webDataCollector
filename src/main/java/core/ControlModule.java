@@ -25,10 +25,9 @@ public class ControlModule {
 	
 	public void action() {
 		ConfigurationObject configurationObject = this.config.getConfiguration();
-		for (int i = 0; i < configurationObject.getListCase().size(); i++) {
-			
-		source.getDataFromSource(i);
-		destination.sendData(i);
+		for (int i = 0; i < configurationObject.getListCase().size(); i++) {	
+			source.getDataFromSource(i);
+			destination.sendData(i);
 		}
 	}
 	
