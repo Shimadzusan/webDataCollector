@@ -19,7 +19,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({"core", "source", "destination"})
 //@PropertySource("musicPlayer.properties")
 public class SpringConfiguration {
-	String configurationFile = "configurationWebDataCollector.xml";
+	String configurationFile = "configurationWebDataCollector_debug.xml";
 	
 	@Bean
 	public ConfigurationAlpha configurationAlpha() {

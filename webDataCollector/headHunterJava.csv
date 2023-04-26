@@ -1,0 +1,4 @@
+url;marker;regex;dataBaseName;tableName;columnName
+https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post;\\{\"auctionData.*;\\{\"auctionData.*;sun;itSector;vacMoscowJavaDev
+https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=1;{"auctionData.*;{"auctionData.*;sun;itSector;vacMoscowJavaDev
+https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=2;{"auctionData.*;{"auctionData.*;sun;itSector;vacMoscowJavaDev

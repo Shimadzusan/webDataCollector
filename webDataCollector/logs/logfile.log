@@ -880,3 +880,17 @@ INFO  | 2023-04-25 13:25:04 | [main] destination.DestinationFile (DestinationFil
 INFO  | 2023-04-25 13:25:04 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
 INFO  | 2023-04-25 13:25:24 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
 INFO  | 2023-04-25 13:25:24 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent
+INFO  | 2023-04-26 10:28:28 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-26 10:28:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:44) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-04-26 10:28:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:46) - reading configuration successfully completed
+INFO  | 2023-04-26 10:28:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:83) - initialization configurationObject successfully completed
+INFO  | 2023-04-26 10:28:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:84) - amount cases: 3
+INFO  | 2023-04-26 10:28:29 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-26 10:29:16 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-26 10:29:16 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultItSector.csv sent
+INFO  | 2023-04-26 10:29:16 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-26 10:29:27 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-26 10:29:27 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-26 10:29:27 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-26 10:29:45 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-26 10:29:45 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent

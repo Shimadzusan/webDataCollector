@@ -77,7 +77,7 @@ public class SourceWeb implements Source {
 	        //System.out.println("found: " + found);
 	        /* extracting regex from marker */
 	        Pattern patternTwo = Pattern.compile(regex);
-	        Matcher matcherTwo = patternTwo.matcher(found.replaceAll(" ", ""));
+	        Matcher matcherTwo = patternTwo.matcher(found.replaceAll(" ", " "));
 	        matcherTwo.find();
 	        System.out.println("value: " + matcherTwo.group());
 	        this.data = matcherTwo.group();
