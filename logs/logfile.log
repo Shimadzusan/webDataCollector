@@ -939,3 +939,26 @@ INFO  | 2023-04-26 21:08:41 | [main] destination.DestinationFile (DestinationFil
 INFO  | 2023-04-26 21:08:41 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
 INFO  | 2023-04-26 21:09:19 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
 INFO  | 2023-04-26 21:09:19 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-27 13:28:17 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-27 13:28:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:44) - start reading configuration, file: configurationWebDataCollector_debug.xml
+INFO  | 2023-04-27 13:28:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:46) - reading configuration successfully completed
+INFO  | 2023-04-27 13:28:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:83) - initialization configurationObject successfully completed
+INFO  | 2023-04-27 13:28:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:84) - amount cases: 2
+INFO  | 2023-04-27 13:28:18 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-27 13:29:28 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-27 13:29:31 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultItSector.csv sent
+INFO  | 2023-04-27 13:29:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-27 13:30:14 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-27 13:30:14 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-27 20:34:23 | [main] core.Launch (Launch.java:11) - start version 2.0
+INFO  | 2023-04-27 20:34:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:44) - start reading configuration, file: configurationWebDataCollector_debug.xml
+INFO  | 2023-04-27 20:34:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:46) - reading configuration successfully completed
+INFO  | 2023-04-27 20:34:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:83) - initialization configurationObject successfully completed
+INFO  | 2023-04-27 20:34:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:84) - amount cases: 2
+INFO  | 2023-04-27 20:34:24 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-27 20:35:29 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-27 20:35:32 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultItSector.csv sent
+INFO  | 2023-04-27 20:35:32 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2023-04-27 20:36:12 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2023-04-27 20:36:12 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultRealtySector.csv sent
+INFO  | 2023-04-27 20:36:12 | [main] core.ControlModule (ControlModule.java:39) - action: 107 sec

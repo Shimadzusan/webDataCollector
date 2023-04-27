@@ -1,5 +1,8 @@
 package core;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.core.Logger;
+
 import configuration.Configuration;
 import configuration.ConfigurationObject;
 import destination.Destination;
@@ -9,6 +12,8 @@ public class ControlModule {
 	Configuration config;
 	Source source;
 	Destination destination;
+	private final Logger LOG = (Logger) LogManager.getLogger(ControlModule.class);
+
 	
 	public ControlModule() {}
 	
@@ -24,11 +29,14 @@ public class ControlModule {
 	}
 	
 	public void action() {
+		long t = System.currentTimeMillis();
 		ConfigurationObject configurationObject = this.config.getConfiguration();
 		for (int i = 0; i < configurationObject.getListCase().size(); i++) {	
 			source.getDataFromSource(i);
 			destination.sendData(i);
 		}
+		long t2 = (System.currentTimeMillis() - t) / 1000;
+		LOG.info("action: " + t2 + " sec");
 	}
 	
 	public synchronized Configuration getConfig() {
