@@ -28,23 +28,16 @@ public class DestinationFile implements Destination {
 	public boolean sendData(int number) {
 		String data = dataOperation.getDate("YYYYMMdd") + ";";
 		for (int j = 0; j < configurationObject.getListCase().get(number).getListInstanceData().size(); j++) {
-			String value = configurationObject.getListCase().get(number).getListInstanceData().get(j).getValue();			
-			//System.out.println(value);
+			String value = configurationObject.getListCase().get(number).getListInstanceData().get(j).getValue();
 			data = data + value + ";";
 		}
 		
 		data = data.substring(0, data.length() - 1);
-		//System.out.println(data);
-		String dest = "";
-		if(number == 0)dest = "resultItSector.csv";
-		if(number == 1)dest = "resultRealtySector.csv";
-		if(number == 2)dest = "resultGlassdoor.csv";
-		
+		String dest = configurationObject.getListCase().get(number).getListInstanceData().get(0).getFileDestination();
+
 		try {
 			dataOperation.writeDataToFile(dest, dataOperation.readDataFromFile(dest) + data);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		} catch (IOException e) {LOG.error(e);}
 
 		LOG.info("data to " + dest + " sent");
 		return false;

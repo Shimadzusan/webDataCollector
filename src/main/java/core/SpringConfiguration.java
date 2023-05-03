@@ -2,6 +2,8 @@ package core;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
+
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
@@ -17,9 +19,15 @@ import org.springframework.context.annotation.ComponentScan;
 
 @Configuration
 @ComponentScan({"core", "source", "destination"})
-//@PropertySource("musicPlayer.properties")
+@PropertySource("configuration.properties")
 public class SpringConfiguration {
-	String configurationFile = "configurationWebDataCollector_debug.xml";
+//	String configurationFile = "configurationWebDataCollector.xml";
+	
+	@Value("${configuration.name}")
+    private String configurationFile;
+
+//    @Value("${musicPlayer.volume}")
+//    private int volume;
 	
 	@Bean
 	public ConfigurationAlpha configurationAlpha() {
@@ -27,8 +35,8 @@ public class SpringConfiguration {
 	}
 	
 	@Bean
-	public ConfigurationBetta configurationBetta() {
-		return new ConfigurationBetta();
+	public ConfigurationBetta configurationBetta() throws FileNotFoundException, IOException {
+		return new ConfigurationBetta(configurationFile);
 	}
 	
 	@Bean
@@ -43,7 +51,7 @@ public class SpringConfiguration {
 	
 	@Bean
 	public SourceWeb sourceWeb() throws FileNotFoundException, IOException {
-		return new SourceWeb(configurationDelta());
+		return new SourceWeb(configurationBetta());
 	}
 	
 	@Bean
@@ -53,13 +61,13 @@ public class SpringConfiguration {
 	
 	@Bean
 	public DestinationFile destinationFile() throws FileNotFoundException, IOException {
-		return new DestinationFile(configurationDelta());
+		return new DestinationFile(configurationBetta());
 	}
 	
 	@Bean
 	public ControlModule controlModule() throws FileNotFoundException, IOException {
 		/* dependency injection instead @Autowired */
-		return new ControlModule(configurationDelta(), sourceWeb(), destinationFile());
+		return new ControlModule(configurationBetta(), sourceWeb(), destinationFile());
 	}
 
 }

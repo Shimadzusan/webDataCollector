@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
   <cases>
-    <case>
+	<case>
       <fileConfig>headHunter.csv</fileConfig>
       <thread>8</thread>
       <mode>test</mode>
-    </case>
-	<case>
-      <fileConfig>headHunterJava.csv</fileConfig>
-      <thread>2</thread>
-      <mode>extended</mode>
     </case>
 	<case>
       <fileConfig>avito.csv</fileConfig>
@@ -17,15 +12,19 @@
       <mode>standard</mode>
 	</case>
 	<case>
-      <fileConfig>glassdoor.csv</fileConfig>
+      <fileConfig>headHunterTotalVac.csv</fileConfig>
       <thread>2</thread>
-      <mode>standard</mode>
-	</case>
+      <mode>extended</mode>
+    </case>
   </cases>
-  <dataBase>
-	  <login>admin</login>
-	  <password>pass</password>
-  </dataBase>
+  <dataStorage>
+	  <file>true</file>
+	  <apacheKafka>false</apacheKafka>
+	  <dataBase>
+		  <login>admin</login>
+		  <password>pass</password>
+	  </dataBase>
+  </dataStorage>
   <runConfiguration>
 	  <logging>extended</logging>
 	  <performanceMonitoring>off</performanceMonitoring>

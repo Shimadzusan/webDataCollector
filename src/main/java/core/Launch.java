@@ -8,7 +8,7 @@ public class Launch {
 	private final static Logger LOG = (Logger) LogManager.getLogger(Launch.class);
 
 	public static void main(String[] args) {
-		LOG.info("start version 2.1");
+		LOG.info("start version 2.2");
 		/* next 3rd step, objects to applicationContext from SpringConfiguration.java */
         AnnotationConfigApplicationContext springContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         ControlModule controlModule = springContext.getBean("controlModule", ControlModule.class);

@@ -1,8 +1,16 @@
 package core;
 
 public class InstanceData {
-	String url,marker,regex,tableData,value,columnName;
+	String url,marker,regex,tableData,value,columnName,fileDestination;
 
+	public synchronized String getFileDestination() {
+		return fileDestination;
+	}
+
+	public synchronized void setFileDestination(String fileDestination) {
+		this.fileDestination = fileDestination;
+	}
+	
 	public synchronized String getColumnName() {
 		return columnName;
 	}

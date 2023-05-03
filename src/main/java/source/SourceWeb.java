@@ -1,19 +1,6 @@
 package source;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
-import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
-import java.io.Writer;
-import java.nio.charset.StandardCharsets;
-import java.util.Iterator;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -69,25 +56,29 @@ public class SourceWeb implements Source {
 			String regex = configurationObject.getListCase().get(number).getListInstanceData().get(i).getRegex();
 	        
 			try {
-			Pattern patternOne = Pattern.compile(marker);
-	        Matcher matcherOne = patternOne.matcher(text);
-	        matcherOne.find();
-	        //System.out.println("marker: " + matcherOne.group());
-	        String found = matcherOne.group();
-	        //System.out.println("found: " + found);
-	        /* extracting regex from marker */
-	        Pattern patternTwo = Pattern.compile(regex);
-	        Matcher matcherTwo = patternTwo.matcher(found.replaceAll(" ", " "));
-	        matcherTwo.find();
-	        System.out.println("value: " + matcherTwo.group());
-	        this.data = matcherTwo.group();
-	        
-	        configurationObject.getListCase().get(number).getListInstanceData().get(i).setValue(matcherTwo.group());
-	        //configurationObject.getConfiguration().get(i).setValue(matcherTwo.group()); delete in next commit
+				Pattern patternOne = Pattern.compile(marker);
+		        Matcher matcherOne = patternOne.matcher(text);
+		        matcherOne.find();
+		        //System.out.println("marker: " + matcherOne.group());
+		        String found = matcherOne.group();
+		        //System.out.println("found: " + found);
+		        /* extracting regex from marker */
+		        Pattern patternTwo = Pattern.compile(regex);
+		        Matcher matcherTwo = patternTwo.matcher(found);
+		        String result = "";
+		        while(matcherTwo.find()) {
+		            result = result + matcherTwo.group();
+		        }
+		        
+		        System.out.println("value: " + i + " " + result);
+		        this.data = result;
+		        
+		        configurationObject.getListCase().get(number).getListInstanceData().get(i).setValue(result);
+		        //configurationObject.getConfiguration().get(i).setValue(matcherTwo.group()); delete in next commit
 			}
-			catch(java.lang.IllegalStateException e) {
-				System.out.println("No match found");
-			}
+			catch(java.lang.IllegalStateException e) {LOG.error(e);}
+			catch(java.lang.NullPointerException e) {LOG.error(e);}
+			
         /* output */
 		//System.out.println(text);
         //System.out.println("value2: " + configurationObject.getListCase().get(1).getListInstanceData().get(i).getValue());

@@ -6,6 +6,7 @@ import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.net.ssl.HttpsURLConnection;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -59,12 +60,59 @@ public class Debug {
 //		version_3();
 //		headHunterJava();
 		
-		String s = "https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=2;\\{\"auctionData.*;\\{\"auctionData.*;sun;itSector;vacMoscowJavaDev";
-			//System.out.println(s);
-			
-			for (int i = 20; i < 40; i++) {
-				System.out.println("https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=" + i + ";\\{\"auctionData.*;\\{\"auctionData.*;sun;itSector;vacMoscowJavaDev");
-			}
+//		String s = "https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=2;\\{\"auctionData.*;\\{\"auctionData.*;sun;itSector;vacMoscowJavaDev";
+//			//System.out.println(s);
+//			
+//			for (int i = 20; i < 40; i++) {
+//				System.out.println("https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=" + i + ";\\{\"auctionData.*;\\{\"auctionData.*;sun;itSector;vacMoscowJavaDev");
+//			}
+		
+		debugFirstHh();
+	}
+	
+	public static void debugFirstHh() {
+		//https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post;Найдено.*По соответствию;[0-9]+;sun;itSector;vacMoscowJavaDev
+
+		//String text = new HttpRequest().getWebText("https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post");
+		/* extracting marker from total text */
+//		String text = "Работа в Москве, поиск персонала и публикация вакансий - hh.ru Произошла ошибка. Попробуйте перезагрузить страницу. Для работы с нашим сайтом необходимо, чтобы Вы включили JavaScript в вашем браузере. Россия Соискателям Работодателям Готовое резюме Репетиция собеседования Все сервисы Помощь Ищу работу Поиск Создать резюме Войти Войти Найти Вакансии Резюме Компании 2 107 вакансий 45 «Java» По соответствию За всё время Подработка 555Временная работа 101 Неполный день 24 По вечерам 23 От 4 часов в день 20 Разовое задание 17 По выходным 5 Подработка ";
+////Найти Вакансии Резюме Компании 2 107 вакансий «Java» По соответствию За всё время 
+//		System.out.println(text);
+//		String marker = "Найти Вакансии Резюме Компании.*По соответствию За всё время";
+//		String regex = "[0-9]+";
+		
+		
+		//https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0;Продажа квартир в Москве.* Недвижимость;[0-9]+
+//		String text = new HttpRequest().getWebText("https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0"); 
+//			System.out.println(text);
+//			String marker = "Продажа квартир в Москве.* Недвижимость Купить жильё Все квартиры";
+//			String regex = "[0-9]+";
+		//*********************************
+		
+		String text = new HttpRequest().getWebText("https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=2"); 
+		System.out.println(text);
+		String marker = "Продажа квартир в Москве.* Недвижимость Купить жильё Все квартиры";
+		String regex = "[0-9]+";
+        
+		Pattern patternOne = Pattern.compile(marker);
+        Matcher matcherOne = patternOne.matcher(text);
+        matcherOne.find();
+        //System.out.println("marker: " + matcherOne.group());
+        String found = matcherOne.group();
+//        System.out.println(matcherOne.groupCount());
+//        System.out.println(matcherOne.toMatchResult());
+//        
+        System.out.println("found: " + found);
+        /* extracting regex from marker */
+        Pattern patternTwo = Pattern.compile(regex);
+        Matcher matcherTwo = patternTwo.matcher(found);
+        
+
+        while(matcherTwo.find()) {
+            System.out.println(matcherTwo.group());
+
+        }
+      
 	}
 	
 	public static void version_3() {
@@ -84,13 +132,6 @@ public class Debug {
 	
 	public static void localReflect() throws FileNotFoundException, IOException {
 		LocalReflect lr = new LocalReflect();
-	}
-	
-	public static void all() {
-		Integer z = new Integer(5);
-		Properties props = System.getProperties();
-		//System.out.println(props);
-		System.out.println(System.getenv());
 	}
 	
 	public static void headHunterJava() throws IOException {
@@ -145,54 +186,56 @@ public class Debug {
 		//String url = "https://www.glassdoor.com/Job/new-york-java-developer-jobs-SRCH_IL.0,8_IC1132348_KO9,23.htm";
 		//String url = "https://www.glassdoor.com/Job/us-driver-jobs-SRCH_IL.0,2_IN1_KO3,9.htm?context=Jobs&clickSource=searchBox";
 		
-		String url = "https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox";
-		String text = new HttpRequest().getWebText(url);
-		System.out.println(text);
-		Integer x = new Integer(2);
-	
-		
-		String marker = "in United States .* jobs Most Relevant";
-		String regex = "[0-9]+";
-        
-		try {
-		Pattern patternOne = Pattern.compile(marker);
-        Matcher matcherOne = patternOne.matcher(text);
-        matcherOne.find();
-        //System.out.println("marker: " + matcherOne.group());
-        String found = matcherOne.group();
-        //System.out.println("found: " + found);
-        /* extracting regex from marker */
-        Pattern patternTwo = Pattern.compile(regex);
-        Matcher matcherTwo = patternTwo.matcher(found.replaceAll(" ", ""));
-        matcherTwo.find();
-        System.out.println("value: " + matcherTwo.group());
-        //this.data = matcherTwo.group();
-        
-        //configurationObject.getListCase().get(number).getListInstanceData().get(i).setValue(matcherTwo.group());
-        //configurationObject.getConfiguration().get(i).setValue(matcherTwo.group()); delete in next commit
-		}
-		catch(java.lang.IllegalStateException e) {
-			System.out.println("No match found");
-		}
+//		String url = "https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox";
+//		String text = new HttpRequest().getWebText(url);
+//		System.out.println(text);
+//		Integer x = new Integer(2);
+//	
+//		
+//		String marker = "in United States .* jobs Most Relevant";
+//		String regex = "[0-9]+";
+//        
+//		try {
+//		Pattern patternOne = Pattern.compile(marker);
+//        Matcher matcherOne = patternOne.matcher(text);
+//        matcherOne.find();
+//        //System.out.println("marker: " + matcherOne.group());
+//        String found = matcherOne.group();
+//        //System.out.println("found: " + found);
+//        /* extracting regex from marker */
+//        Pattern patternTwo = Pattern.compile(regex);
+//        Matcher matcherTwo = patternTwo.matcher(found.replaceAll(" ", ""));
+//        matcherTwo.find();
+//        System.out.println("value: " + matcherTwo.group());
+//        //this.data = matcherTwo.group();
+//        
+//        //configurationObject.getListCase().get(number).getListInstanceData().get(i).setValue(matcherTwo.group());
+//        //configurationObject.getConfiguration().get(i).setValue(matcherTwo.group()); delete in next commit
+//		}
+//		catch(java.lang.IllegalStateException e) {
+//			System.out.println("No match found");
+//		}
 
-//		        URL url = new URL("https://www.glassdoor.com/Job/new-york-java-developer-jobs-SRCH_IL.0,8_IC1132348_KO9,23.htm");
-//		        HttpURLConnection con = (HttpURLConnection) url.openConnection();
-//		        
-//		        con.setRequestMethod("GET");
-//		        con.setRequestProperty("User-Agent", "Mozilla/5.0");
-//
-//		        int responseCode = con.getResponseCode();
-//		        System.out.println("Response code: " + responseCode);
-//		        
-//		        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
-//		        String inputLine;
-//		        StringBuffer content = new StringBuffer();
-//		        while ((inputLine = in.readLine()) != null) {
-//		            content.append(inputLine);
-//		        }
-//		        in.close();
-//
-//		        System.out.println("Response body: " + content);
+		        URL url = new URL("https://www.glassdoor.com/Job/new-york-java-developer-jobs-SRCH_IL.0,8_IC1132348_KO9,23.htm");
+		        HttpsURLConnection con = (HttpsURLConnection) url.openConnection();
+		        
+		        con.setRequestMethod("OPTIONS");
+//		        con.setRequestProperty("User-Agent", "PostmanRuntime/7.26.8");
+//		        con.setRequestProperty("Cookie", "gdId=d1eab55e-55a9-46e9-b464-f02b12985206; gdsid=1683029074628:1683029074628:E3C08E4B655B4BDF55A02E7A6A8AEB34; asst=1683029074.0; bs=EUt3KJEzV7mxysAOHHrMXA:KVxqngAHYELt5Mef6glIIFtV0Wk7o1YWSKL_eMvPBOtJEFFBpb1p9BSIuOKkB-NWiYrLQerY-XJc4-h-vKM4vA5w9rcbXBXVegYamspCrQU:bskboJXX1C8zUvGuFGSZ5_YCLsAfqm3kC_Yf4Cxs35o; __cf_bm=uRSQCRRQxLq3VXB.DIGM19jOGe9JKoBy8tsDFFuEKyw-1683029074-0-AVfnlsYNjDNEvSfi/AQvsQx2W9lgen/qQiCRp2OEEGr9d4AwzfPdtriIRpUkQX3Du+tVhngnCknBeCX1wJSNC3w=; _cfuvid=8bATEUZgjBeWz0CvvKeZxeV5Uwo6.p_RinwM2NMzxYQ-1683029074698-0-604800000");
+//		        con.setRequestProperty("Accept", "*/*");
+		        
+		        int responseCode = con.getResponseCode();
+		        System.out.println("Response code: " + responseCode);
+		        
+		        BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		        String inputLine;
+		        StringBuffer content = new StringBuffer();
+		        while ((inputLine = in.readLine()) != null) {
+		            content.append(inputLine);
+		        }
+		        in.close();
+
+		        System.out.println("Response body: " + content);
 		    
 	}
 	
