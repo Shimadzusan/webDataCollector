@@ -29,9 +29,9 @@ public class ConfigurationBetta implements Configuration  {
 		
 	public ConfigurationBetta(String configurationFile) throws FileNotFoundException, IOException {
 		this.configurationFile = configurationFile;
-		LOG.info("start reading configuration, file: " + configurationFile);
+		logging("start reading configuration, file: " + configurationFile);
 		String xmlString = dataOperation.readDataFromFile(configurationFile);
-		LOG.info("reading configuration successfully completed");
+		logging("reading configuration successfully completed");
 			
 		/* initialization every case from configurationFile */ 
 		JAXBContext jaxbContext;		
@@ -68,7 +68,7 @@ public class ConfigurationBetta implements Configuration  {
 			}
 			this.configurationObject.setListCase(listCase);
 			
-			LOG.info("initialization configurationObject successfully completed");
+			logging("initialization configurationObject successfully completed");
 			LOG.info("amount cases: " + cases.getCases().length);
 		}
 		catch (JAXBException e) {e.printStackTrace();}
@@ -86,6 +86,11 @@ public class ConfigurationBetta implements Configuration  {
 		
 	private void readConfigurationFile() {
 			
+	}
+	
+	private boolean logging(String logMessage) {
+		LOG.info(logMessage);
+		return true;
 	}
 
 }

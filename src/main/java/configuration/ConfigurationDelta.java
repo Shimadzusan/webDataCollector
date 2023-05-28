@@ -17,7 +17,7 @@ import core.InstanceData;
 import util.DataOperation;
 
 /** input: file with configurations data 
- * 	output: java object with configurations 
+ * 	output: java object with configurations(ConfigurationObject)
  * 	This class ConfigurationDelta implements one from many possibility extracting data from configurations file
  * 	to javaObject */
 public class ConfigurationDelta implements Configuration {

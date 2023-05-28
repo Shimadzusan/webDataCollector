@@ -44,7 +44,7 @@ public class MySQLDatabase2 {
 		statmt = connection.createStatement();
 //		String s = "insert itSector(date,vacMoscowJavaDev,vacMoscowCplplDev,vacMoscowCshDev) values(20230115,10,40,50)";	
 //		String s = buildRequest();
-		String s = "INSERT INTO workforce.vacancies (`date`, `name`, `vacancyId`, `publicationTime`, `lastChangeTime`, `responsesCount`, `totalResponsesCount`, `company`, `requirements`, `skill`, `location`) VALUES ('20230508', '" + name + "', " + vacancyId + ", " + publicationTime + ", " + lastChangeTime + ", " + responsesCount + ", " + totalResponsesCount + ", '" + company + "', '" + requirements + "', '" + skill + "', '" + location + "')";
+		String s = "INSERT INTO workforce.vacancies (`date`, `name`, `vacancyId`, `publicationTime`, `lastChangeTime`, `responsesCount`, `totalResponsesCount`, `company`, `requirements`, `skill`, `location`) VALUES ('20230524', '" + name + "', " + vacancyId + ", " + publicationTime + ", " + lastChangeTime + ", " + responsesCount + ", " + totalResponsesCount + ", '" + company + "', '" + requirements + "', '" + skill + "', '" + location + "')";
 		statmt.execute(s);			  
 		System.out.println("writing to data_base ...complete");
 	}

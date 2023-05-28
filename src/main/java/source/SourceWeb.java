@@ -10,6 +10,7 @@ import org.apache.logging.log4j.core.Logger;
 import configuration.Configuration;
 import configuration.ConfigurationObject;
 import network.HttpRequest;
+import network.HttpRequestDecorator;
 
 /** input: URL, marker, regex 
  * 	output: value from webpage for storage in database 
@@ -50,7 +51,8 @@ public class SourceWeb implements Source {
 		/* input */
 		for (int i = 0; i < configurationObject.getListCase().get(number).getListInstanceData().size(); i++) {
 			System.out.println(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
-			String text = new HttpRequest().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+//			String text = new HttpRequest().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+			String text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 			/* extracting marker from total text */
 			String marker = configurationObject.getListCase().get(number).getListInstanceData().get(i).getMarker();
 			String regex = configurationObject.getListCase().get(number).getListInstanceData().get(i).getRegex();

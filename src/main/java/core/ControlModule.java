@@ -6,6 +6,7 @@ import org.apache.logging.log4j.core.Logger;
 import configuration.Configuration;
 import configuration.ConfigurationObject;
 import destination.Destination;
+import network.Singleton;
 import source.Source;
 
 public class ControlModule {
@@ -36,6 +37,7 @@ public class ControlModule {
 			destination.sendData(i);
 		}
 		long t2 = (System.currentTimeMillis() - t) / 1000;
+		LOG.info("total traffic: " + Singleton.totalTraffic + " bytes");
 		LOG.info("action: " + t2 + " sec");
 	}
 	

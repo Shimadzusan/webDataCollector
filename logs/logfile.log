@@ -1284,3 +1284,515 @@ INFO  | 2023-05-03 12:22:21 | [main] source.SourceWeb (SourceWeb.java:61) - star
 INFO  | 2023-05-03 12:23:22 | [main] source.SourceWeb (SourceWeb.java:101) - classLogic successfully completed
 INFO  | 2023-05-03 12:23:23 | [main] destination.DestinationFile (DestinationFile.java:44) - data to resultHeadHunterTotalVac.csv sent
 INFO  | 2023-05-03 12:23:23 | [main] core.ControlModule (ControlModule.java:39) - action: 138 sec
+INFO  | 2023-05-14 13:57:07 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-14 13:57:07 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-14 13:57:07 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-14 13:57:08 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-14 13:57:08 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-14 13:57:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-14 13:57:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-14 13:57:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-14 13:57:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-14 13:57:08 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-14 13:57:35 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-14 13:57:36 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-14 13:57:43 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 13:57:43 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-14 13:57:43 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-14 13:57:54 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 13:57:54 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-14 13:57:54 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-14 13:58:56 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 13:58:58 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-14 13:58:58 | [main] core.ControlModule (ControlModule.java:39) - action: 109 sec
+INFO  | 2023-05-14 14:26:08 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-14 14:26:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-14 14:26:09 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-14 14:26:35 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-14 14:26:41 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 14:26:41 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-14 14:26:41 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-14 14:26:52 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 14:26:52 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-14 14:26:52 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-14 14:31:01 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+ERROR | 2023-05-14 14:31:12 | [main] destination.DestinationFile (DestinationFile.java:40) - java.io.FileNotFoundException: sun (Не удается найти указанный файл)
+INFO  | 2023-05-14 14:31:12 | [main] destination.DestinationFile (DestinationFile.java:42) - data to sun sent
+INFO  | 2023-05-14 14:31:12 | [main] core.ControlModule (ControlModule.java:39) - action: 303 sec
+INFO  | 2023-05-14 14:35:28 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-14 14:35:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-14 14:35:29 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-14 14:35:55 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-14 14:36:03 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 14:36:03 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-14 14:36:03 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-14 14:36:14 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 14:36:14 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-14 14:36:14 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-14 14:40:24 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-14 14:40:39 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-14 14:40:39 | [main] core.ControlModule (ControlModule.java:39) - action: 309 sec
+INFO  | 2023-05-15 17:59:31 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-15 17:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-05-15 17:59:32 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-15 17:59:59 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-15 18:00:07 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-15 18:00:07 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-15 18:00:07 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-15 18:00:18 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-15 18:00:18 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-15 18:00:18 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-15 18:04:40 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-15 18:04:52 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-15 18:04:52 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-15 18:04:52 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-java-developer-jobs-SRCH_IL.0,2_IN1_KO3,17.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:52 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:52 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-driver-jobs-SRCH_IL.0,2_IN1_KO3,9.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:52 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:53 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-accountant-jobs-SRCH_IL.0,2_IN1_KO3,13.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:53 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:53 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:53 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:53 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-sales-manager-jobs-SRCH_IL.0,2_IN1_KO3,16.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:53 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:53 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-nurse-jobs-SRCH_IL.0,2_IN1_KO3,8.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:53 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:53 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-java-developer-jobs-SRCH_IL.0,14_IN2_KO15,29.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:53 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:54 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-driver-jobs-SRCH_IL.0,14_IN2_KO15,21.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:54 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:54 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-accountant-jobs-SRCH_IL.0,14_IN2_KO15,25.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:54 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:54 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-attorney-jobs-SRCH_IL.0,14_IN2_KO15,23.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:54 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:54 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-sales-manager-jobs-SRCH_IL.0,14_IN2_KO15,28.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-05-15 18:04:54 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-15 18:04:54 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-nurse-jobs-SRCH_IL.0,14_IN2_KO15,20.htm?clickSource=searchBox]
+ERROR | 2023-05-15 18:04:54 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-15 18:04:54 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-15 18:04:54 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-15 18:04:54 | [main] core.ControlModule (ControlModule.java:39) - action: 322 sec
+INFO  | 2023-05-16 10:21:13 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-16 10:21:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-16 10:21:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-16 10:21:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-16 10:21:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-05-16 10:21:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-16 10:21:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-16 10:21:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-16 10:21:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-05-16 10:21:14 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-16 10:21:42 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-16 10:21:43 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-16 10:21:46 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-16 10:21:52 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-16 10:22:00 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-16 10:22:03 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-16 10:22:03 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-16 10:22:15 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-16 10:22:15 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-16 10:22:15 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-16 10:23:03 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-16 10:23:11 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-16 10:23:11 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-16 10:23:20 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-16 10:23:32 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-16 10:23:36 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-16 10:23:36 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-16 10:23:36 | [main] core.ControlModule (ControlModule.java:39) - action: 141 sec
+INFO  | 2023-05-22 19:54:45 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 19:54:47 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-22 19:54:47 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-22 19:55:08 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-22 19:55:13 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-22 19:55:18 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-22 19:55:18 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 19:55:20 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-22 19:55:20 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 19:55:32 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 19:55:32 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-22 19:55:32 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 19:59:51 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:02:45 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 20:02:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-22 20:02:47 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-22 20:03:04 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-22 20:03:16 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-22 20:03:16 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:03:19 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-22 20:03:19 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 20:03:30 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:03:30 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-22 20:03:30 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 20:07:33 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:09:09 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 20:09:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-22 20:09:10 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-22 20:09:40 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-22 20:09:40 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:09:42 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-22 20:09:42 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 20:09:56 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:09:56 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-22 20:09:56 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 20:12:03 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-22 20:12:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-22 20:12:04 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-22 20:12:33 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-22 20:12:33 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:12:35 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-22 20:12:35 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 20:12:47 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:12:47 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-22 20:12:47 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-22 20:17:04 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-22 20:17:16 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-22 20:17:16 | [main] core.ControlModule (ControlModule.java:39) - action: 312 sec
+INFO  | 2023-05-24 14:49:10 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-24 14:49:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-05-24 14:49:11 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-24 14:49:32 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-24 14:49:37 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-24 14:49:50 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-24 14:49:51 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 14:49:54 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-24 14:49:54 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-24 14:50:05 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 14:50:05 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-24 14:50:05 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-24 14:54:20 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 14:54:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-24 14:54:28 | [main] core.ControlModule (ControlModule.java:39) - action: 316 sec
+INFO  | 2023-05-24 21:09:01 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-24 21:09:02 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:32) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-24 21:09:02 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:34) - reading configuration successfully completed
+INFO  | 2023-05-24 21:09:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:71) - initialization configurationObject successfully completed
+INFO  | 2023-05-24 21:09:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-05-24 21:09:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-24 21:09:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-24 21:09:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-24 21:09:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-05-24 21:09:03 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-24 21:09:23 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-24 21:09:29 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-24 21:09:34 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 21:09:34 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-24 21:09:34 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-24 21:09:48 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 21:09:48 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-24 21:09:48 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2023-05-24 21:11:46 | [main] source.SourceWeb (SourceWeb.java:79) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-24 21:14:01 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 21:14:13 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-05-24 21:14:13 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2023-05-24 21:15:20 | [main] source.SourceWeb (SourceWeb.java:88) - classLogic successfully completed
+INFO  | 2023-05-24 21:15:21 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-24 21:15:21 | [main] core.ControlModule (ControlModule.java:39) - action: 377 sec
+INFO  | 2023-05-28 16:54:42 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-28 16:54:44 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-05-28 16:54:44 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 16:54:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 933670
+INFO  | 2023-05-28 16:54:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=C%2B%2B&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 923269
+INFO  | 2023-05-28 16:54:50 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=C%23&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:50 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 916854
+INFO  | 2023-05-28 16:54:51 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Swift&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:51 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 806718
+INFO  | 2023-05-28 16:54:52 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Python&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:52 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 962004
+INFO  | 2023-05-28 16:54:53 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=PHP&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:53 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 958160
+INFO  | 2023-05-28 16:54:54 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java+junior&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:54 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 785975
+INFO  | 2023-05-28 16:54:55 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=2&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:55 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 771286
+INFO  | 2023-05-28 16:54:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=C%2B%2B&only_with_salary=false&specialization=1.221&area=2&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 793345
+INFO  | 2023-05-28 16:54:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=C%23&only_with_salary=false&clusters=true&area=2&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 800108
+INFO  | 2023-05-28 16:54:57 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Swift&only_with_salary=false&clusters=true&area=2&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:57 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 754682
+INFO  | 2023-05-28 16:54:58 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Python&only_with_salary=false&clusters=true&area=2&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:58 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 793669
+INFO  | 2023-05-28 16:54:59 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=PHP&only_with_salary=false&clusters=true&area=2&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:59 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 790790
+INFO  | 2023-05-28 16:54:59 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java+junior&only_with_salary=false&specialization=1.221&area=2&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:54:59 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 558388
+INFO  | 2023-05-28 16:55:00 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1002&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:00 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 715431
+INFO  | 2023-05-28 16:55:01 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=C%2B%2B&only_with_salary=false&specialization=1.221&area=1002&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:01 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 690960
+INFO  | 2023-05-28 16:55:02 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=C%23&only_with_salary=false&clusters=true&area=1002&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:02 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 697330
+INFO  | 2023-05-28 16:55:02 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Swift&only_with_salary=false&clusters=true&area=1002&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:02 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 568978
+INFO  | 2023-05-28 16:55:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Python&only_with_salary=false&clusters=true&area=1002&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 721457
+INFO  | 2023-05-28 16:55:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=PHP&only_with_salary=false&clusters=true&area=1002&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 720981
+INFO  | 2023-05-28 16:55:04 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java+junior&only_with_salary=false&specialization=1.221&area=1002&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:04 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 460361
+INFO  | 2023-05-28 16:55:05 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Java&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=1&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post
+INFO  | 2023-05-28 16:55:05 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 654348
+INFO  | 2023-05-28 16:55:05 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=C%2B%2B&clusters=true&exp_period=all_time&logic=normal&pos=full_text&order_by=publication_time&specialization=1.221&area=1&clusters=true&from=suggest_post
+INFO  | 2023-05-28 16:55:05 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 650506
+ERROR | 2023-05-28 16:55:05 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-28 16:55:06 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=C%23&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:06 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 651745
+INFO  | 2023-05-28 16:55:07 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=SWIFT&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:07 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 634595
+ERROR | 2023-05-28 16:55:07 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-28 16:55:08 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Python&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:08 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 679202
+INFO  | 2023-05-28 16:55:08 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=PHP&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:08 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 699527
+ERROR | 2023-05-28 16:55:08 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-28 16:55:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Java+Junior&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=1&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post
+INFO  | 2023-05-28 16:55:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 617286
+INFO  | 2023-05-28 16:55:10 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Java&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=2&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post
+INFO  | 2023-05-28 16:55:10 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 621867
+INFO  | 2023-05-28 16:55:11 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=C%2B%2B&clusters=true&exp_period=all_time&logic=normal&pos=full_text&order_by=publication_time&specialization=1.221&area=2&clusters=true&from=suggest_post
+INFO  | 2023-05-28 16:55:11 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 633128
+INFO  | 2023-05-28 16:55:11 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=C%23&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=2&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:11 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 614611
+INFO  | 2023-05-28 16:55:12 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=SWIFT&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=2&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:12 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 605039
+INFO  | 2023-05-28 16:55:13 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Python&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=2&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:13 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 633803
+INFO  | 2023-05-28 16:55:14 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=PHP&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=2&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:14 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 639742
+INFO  | 2023-05-28 16:55:14 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Java+Junior&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=2&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post
+INFO  | 2023-05-28 16:55:14 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 597973
+INFO  | 2023-05-28 16:55:15 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Java&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=1002&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post
+INFO  | 2023-05-28 16:55:15 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 585781
+INFO  | 2023-05-28 16:55:16 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=C%2B%2B&clusters=true&exp_period=all_time&logic=normal&pos=full_text&order_by=publication_time&specialization=1.221&area=1002&clusters=true&from=suggest_post
+INFO  | 2023-05-28 16:55:16 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 580643
+INFO  | 2023-05-28 16:55:16 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=C%23&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1002&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:16 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 590468
+INFO  | 2023-05-28 16:55:17 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=SWIFT&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1002&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:17 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 542442
+INFO  | 2023-05-28 16:55:18 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Python&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1002&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:18 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 597590
+INFO  | 2023-05-28 16:55:18 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=PHP&clusters=true&exp_period=all_time&logic=normal&pos=full_text&clusters=true&area=1002&specialization=1.221&order_by=publication_time&no_magic=false&from=suggest_post
+INFO  | 2023-05-28 16:55:18 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 599937
+INFO  | 2023-05-28 16:55:19 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/resume?text=Java+Junior&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=1002&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post
+INFO  | 2023-05-28 16:55:19 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 560924
+INFO  | 2023-05-28 16:55:19 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 16:55:19 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-28 16:55:19 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 16:55:21 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:21 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 73500
+INFO  | 2023-05-28 16:55:23 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:23 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 66435
+INFO  | 2023-05-28 16:55:24 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:24 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 69628
+INFO  | 2023-05-28 16:55:26 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:26 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 72232
+INFO  | 2023-05-28 16:55:29 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:29 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 64848
+INFO  | 2023-05-28 16:55:30 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:30 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 56161
+INFO  | 2023-05-28 16:55:32 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2023-05-28 16:55:32 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 51955
+INFO  | 2023-05-28 16:55:32 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 16:55:32 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-28 16:55:32 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 16:55:33 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2023-05-28 16:55:33 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 933659
+INFO  | 2023-05-28 16:55:37 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=1
+INFO  | 2023-05-28 16:55:37 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 923440
+INFO  | 2023-05-28 16:55:46 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=2
+INFO  | 2023-05-28 16:55:46 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 921393
+INFO  | 2023-05-28 16:55:52 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=3
+INFO  | 2023-05-28 16:55:52 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 929351
+INFO  | 2023-05-28 16:56:00 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=4
+INFO  | 2023-05-28 16:56:00 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 934325
+INFO  | 2023-05-28 16:56:06 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=5
+INFO  | 2023-05-28 16:56:06 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 919206
+INFO  | 2023-05-28 16:56:15 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=6
+INFO  | 2023-05-28 16:56:15 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 916907
+INFO  | 2023-05-28 16:56:22 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=7
+INFO  | 2023-05-28 16:56:23 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 931668
+INFO  | 2023-05-28 16:56:32 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=8
+INFO  | 2023-05-28 16:56:32 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 931738
+INFO  | 2023-05-28 16:56:42 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=9
+INFO  | 2023-05-28 16:56:42 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 910996
+INFO  | 2023-05-28 16:56:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=10
+INFO  | 2023-05-28 16:56:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 927840
+INFO  | 2023-05-28 16:56:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=11
+INFO  | 2023-05-28 16:56:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 928457
+INFO  | 2023-05-28 16:57:02 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=12
+INFO  | 2023-05-28 16:57:02 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 921977
+INFO  | 2023-05-28 16:57:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=13
+INFO  | 2023-05-28 16:57:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 921371
+INFO  | 2023-05-28 16:57:15 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=14
+INFO  | 2023-05-28 16:57:15 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 930054
+INFO  | 2023-05-28 16:57:22 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=15
+INFO  | 2023-05-28 16:57:22 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 922675
+INFO  | 2023-05-28 16:57:30 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=16
+INFO  | 2023-05-28 16:57:30 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 938411
+INFO  | 2023-05-28 16:57:36 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=17
+INFO  | 2023-05-28 16:57:36 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 937786
+INFO  | 2023-05-28 16:57:43 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=18
+INFO  | 2023-05-28 16:57:43 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 920819
+INFO  | 2023-05-28 16:57:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=19
+INFO  | 2023-05-28 16:57:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 931099
+INFO  | 2023-05-28 16:57:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=20
+INFO  | 2023-05-28 16:57:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 925354
+INFO  | 2023-05-28 16:58:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=21
+INFO  | 2023-05-28 16:58:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 921795
+INFO  | 2023-05-28 16:58:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=22
+INFO  | 2023-05-28 16:58:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 934091
+INFO  | 2023-05-28 16:58:17 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=23
+INFO  | 2023-05-28 16:58:17 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 922249
+INFO  | 2023-05-28 16:58:22 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=24
+INFO  | 2023-05-28 16:58:22 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 936644
+INFO  | 2023-05-28 16:58:29 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=25
+INFO  | 2023-05-28 16:58:29 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 913707
+INFO  | 2023-05-28 16:58:36 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=26
+INFO  | 2023-05-28 16:58:36 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 933051
+INFO  | 2023-05-28 16:58:43 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=27
+INFO  | 2023-05-28 16:58:43 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 926709
+INFO  | 2023-05-28 16:58:50 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=28
+INFO  | 2023-05-28 16:58:50 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 927364
+INFO  | 2023-05-28 16:58:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=29
+INFO  | 2023-05-28 16:58:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 940708
+INFO  | 2023-05-28 16:59:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=30
+INFO  | 2023-05-28 16:59:03 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 922431
+INFO  | 2023-05-28 16:59:10 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=31
+INFO  | 2023-05-28 16:59:10 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 948101
+INFO  | 2023-05-28 16:59:16 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=32
+INFO  | 2023-05-28 16:59:16 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 933112
+INFO  | 2023-05-28 16:59:23 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=33
+INFO  | 2023-05-28 16:59:23 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 948603
+INFO  | 2023-05-28 16:59:30 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=34
+INFO  | 2023-05-28 16:59:30 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 932369
+INFO  | 2023-05-28 16:59:37 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=35
+INFO  | 2023-05-28 16:59:37 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 934852
+INFO  | 2023-05-28 16:59:44 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=36
+INFO  | 2023-05-28 16:59:44 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 939048
+INFO  | 2023-05-28 16:59:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=37
+INFO  | 2023-05-28 16:59:49 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 939505
+INFO  | 2023-05-28 16:59:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=38
+INFO  | 2023-05-28 16:59:56 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 947835
+INFO  | 2023-05-28 17:00:04 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=39
+INFO  | 2023-05-28 17:00:04 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 924422
+INFO  | 2023-05-28 17:00:09 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 17:00:27 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-05-28 17:00:27 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 17:00:28 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=8
+INFO  | 2023-05-28 17:00:28 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 833979
+INFO  | 2023-05-28 17:00:32 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=2
+INFO  | 2023-05-28 17:00:32 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 860035
+INFO  | 2023-05-28 17:00:40 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=1
+INFO  | 2023-05-28 17:00:40 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 873869
+INFO  | 2023-05-28 17:00:46 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=18
+INFO  | 2023-05-28 17:00:46 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 865987
+INFO  | 2023-05-28 17:00:52 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=20
+INFO  | 2023-05-28 17:00:52 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 858563
+INFO  | 2023-05-28 17:00:58 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=21
+INFO  | 2023-05-28 17:00:58 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 835983
+INFO  | 2023-05-28 17:01:04 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=7
+INFO  | 2023-05-28 17:01:04 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 797316
+INFO  | 2023-05-28 17:01:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=23
+INFO  | 2023-05-28 17:01:09 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 829084
+INFO  | 2023-05-28 17:01:14 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=13
+INFO  | 2023-05-28 17:01:14 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 832205
+INFO  | 2023-05-28 17:01:19 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=5
+INFO  | 2023-05-28 17:01:19 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 859663
+INFO  | 2023-05-28 17:01:24 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=14
+INFO  | 2023-05-28 17:01:24 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 788268
+INFO  | 2023-05-28 17:01:31 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=17
+INFO  | 2023-05-28 17:01:31 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - size: 880629
+INFO  | 2023-05-28 17:01:36 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 17:01:37 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-28 17:01:37 | [main] core.ControlModule (ControlModule.java:39) - action: 412 sec
+INFO  | 2023-05-28 18:45:18 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-28 18:45:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-05-28 18:45:19 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-05-28 18:45:37 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-28 18:45:46 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-28 18:45:51 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 18:45:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-28 18:45:51 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 18:46:01 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 18:46:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-28 18:46:01 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 18:50:26 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 18:51:03 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-05-28 18:51:03 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-28 18:52:13 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-28 18:52:14 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-28 18:52:14 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 76847945 bytes
+INFO  | 2023-05-28 18:52:14 | [main] core.ControlModule (ControlModule.java:41) - action: 415 sec
