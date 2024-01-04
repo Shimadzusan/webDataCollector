@@ -894,3 +894,127 @@ INFO  | 2023-04-26 10:29:27 | [main] destination.DestinationFile (DestinationFil
 INFO  | 2023-04-26 10:29:27 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
 INFO  | 2023-04-26 10:29:45 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
 INFO  | 2023-04-26 10:29:45 | [main] destination.DestinationFile (DestinationFile.java:49) - data to resultGlassdoor.csv sent
+INFO  | 2023-07-27 12:18:24 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:18:24 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 12:21:28 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:21:28 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 12:23:25 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:23:25 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 12:24:31 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:24:31 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 12:28:19 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:28:20 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [C:/Users/user/Desktop/eclipse-workspace/webDataCollector/webDataCollector3/resources/configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 12:36:26 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 12:36:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 12:36:26 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-07-27 12:36:29 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:31 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:32 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:33 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:35 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:36 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:37 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:39 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:40 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:42 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:43 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:44 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:45 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:46 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:48 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:51 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:52 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:53 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:54 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:55 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:56 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:57 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:58 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:36:59 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:01 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:03 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:04 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:37:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-07-27 12:49:28 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:49:29 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 13:00:30 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 13:00:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 13:02:34 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 13:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 13:02:35 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-07-27 13:02:37 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:38 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:39 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:42 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:43 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:44 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:46 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:47 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:48 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:52 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:53 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:54 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:56 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:57 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:58 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:02:59 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:01 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:01 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:03 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:03 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:05 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:07 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:10 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:11 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:12 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:12 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:14 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:14 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:15 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:16 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:17 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:18 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:19 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:19 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:20 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-07-27 13:03:20 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 13:03:20 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-07-27 13:03:20 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-07-27 13:03:22 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:23 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 13:03:25 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found

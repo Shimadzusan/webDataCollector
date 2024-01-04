@@ -6,26 +6,29 @@
       <thread>8</thread>
       <mode>test</mode>
     </case>
-	<case>
+	<!--<case>
       <fileConfig>avito.csv</fileConfig>
       <thread>4</thread>
       <mode>standard</mode>
 	</case>
+	-->
 	<case>
       <fileConfig>headHunterJava.csv</fileConfig>
       <thread>2</thread>
       <mode>extended</mode>
     </case>
+	
 	<case>
       <fileConfig>headHunterTotalVac.csv</fileConfig>
       <thread>2</thread>
       <mode>extended</mode>
     </case>
-	<!-- <case>
+	<!--
+	  <case>
       <fileConfig>glassdoor.csv</fileConfig>
       <thread>2</thread>
       <mode>extended</mode>
-    </case> -->
+    </case>-->
   </cases>
   <dataStorage>
 	  <file>true</file>

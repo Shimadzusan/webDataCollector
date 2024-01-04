@@ -1796,3 +1796,622 @@ INFO  | 2023-05-28 18:52:13 | [main] source.SourceWeb (SourceWeb.java:90) - clas
 INFO  | 2023-05-28 18:52:14 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
 INFO  | 2023-05-28 18:52:14 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 76847945 bytes
 INFO  | 2023-05-28 18:52:14 | [main] core.ControlModule (ControlModule.java:41) - action: 415 sec
+INFO  | 2023-05-29 14:54:36 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-29 14:54:36 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-29 14:54:36 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-05-29 14:54:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-05-29 14:54:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 5
+INFO  | 2023-05-29 14:54:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-29 14:54:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-29 14:54:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-29 14:54:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2023-05-29 14:54:37 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-29 14:55:17 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-29 14:55:17 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-29 14:55:17 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-29 14:55:28 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-29 14:55:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-29 14:55:28 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-29 14:56:15 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+ERROR | 2023-05-29 14:56:17 | [main] destination.DestinationFile (DestinationFile.java:40) - java.io.FileNotFoundException: resultHeadHunterJava.csv (No such file or directory)
+INFO  | 2023-05-29 14:56:17 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-05-29 14:56:17 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-29 14:56:33 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+ERROR | 2023-05-29 14:56:34 | [main] destination.DestinationFile (DestinationFile.java:40) - java.io.FileNotFoundException: resultHeadHunterTotalVac.csv (No such file or directory)
+INFO  | 2023-05-29 14:56:34 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-29 14:56:34 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-05-29 14:56:39 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-29 14:56:47 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-29 14:56:50 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-29 14:56:50 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-29 14:56:50 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 77007959 bytes
+INFO  | 2023-05-29 14:56:50 | [main] core.ControlModule (ControlModule.java:41) - action: 133 sec
+INFO  | 2023-05-30 11:43:10 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 5
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-30 11:43:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2023-05-30 11:43:11 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-05-30 11:43:42 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-30 11:43:53 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 11:43:53 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-30 11:43:53 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-30 11:44:04 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 11:44:04 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-30 11:44:04 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-30 11:44:47 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 11:58:32 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 5
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-05-30 11:58:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2023-05-30 11:58:33 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-05-30 11:59:01 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-30 11:59:08 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-30 11:59:16 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 11:59:16 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-05-30 11:59:16 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-30 11:59:26 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 11:59:26 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-05-30 11:59:26 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-30 12:00:10 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 12:00:18 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-05-30 12:00:18 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-05-30 12:00:36 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 12:00:38 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-05-30 12:00:38 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-05-30 12:00:40 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-30 12:00:45 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-30 12:00:51 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+ERROR | 2023-05-30 12:00:52 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-05-30 12:00:53 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-05-30 12:00:53 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultGlassdoor.csv sent
+INFO  | 2023-05-30 12:00:53 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 76899341 bytes
+INFO  | 2023-05-30 12:00:53 | [main] core.ControlModule (ControlModule.java:41) - action: 139 sec
+INFO  | 2023-06-05 21:40:18 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 5
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-06-05 21:40:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2023-06-05 21:40:19 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-06-05 21:40:45 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-06-05 21:40:53 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-05 21:40:53 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-06-05 21:40:53 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-05 21:41:03 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-05 21:41:03 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-06-05 21:41:03 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-05 21:41:36 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-09 15:01:57 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-06-09 15:01:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-06-09 15:01:58 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-09 15:02:41 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-09 15:02:41 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-06-09 15:02:41 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-09 15:02:51 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-09 15:02:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-06-09 15:02:51 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-09 15:09:32 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-09 15:09:43 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-06-09 15:09:43 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-09 15:11:25 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-09 15:11:26 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-06-09 15:11:26 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 103558581 bytes
+INFO  | 2023-06-09 15:11:26 | [main] core.ControlModule (ControlModule.java:41) - action: 567 sec
+INFO  | 2023-06-27 16:32:12 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-06-27 16:32:12 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-06-27 16:32:12 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-06-27 16:32:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-06-27 16:32:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-06-27 16:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-06-27 16:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-06-27 16:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-06-27 16:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-06-27 16:32:13 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-06-27 16:32:38 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-06-27 16:32:55 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-27 16:32:55 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-06-27 16:32:55 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-27 16:33:04 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-27 16:33:04 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-06-27 16:33:04 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-27 16:40:36 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-27 16:40:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-06-27 16:40:51 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-06-27 16:42:55 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-06-27 16:42:57 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-06-27 16:42:57 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 109720400 bytes
+INFO  | 2023-06-27 16:42:57 | [main] core.ControlModule (ControlModule.java:41) - action: 643 sec
+INFO  | 2023-07-06 20:17:59 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 4
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-06 20:18:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2023-07-06 20:18:00 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-07-06 20:18:38 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-06 20:18:38 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-07-06 20:18:38 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-07-06 20:18:48 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-06 20:18:48 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-07-06 20:18:48 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-07-06 20:27:20 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-06 20:27:33 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-07-06 20:27:33 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-07-06 20:29:50 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-06 20:29:53 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-07-06 20:29:53 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 117735677 bytes
+INFO  | 2023-07-06 20:29:53 | [main] core.ControlModule (ControlModule.java:41) - action: 712 sec
+INFO  | 2023-07-21 14:45:03 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-21 14:45:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-21 14:45:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-21 14:45:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-21 14:45:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-21 14:45:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-21 14:45:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-21 14:45:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-21 14:45:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-21 14:45:04 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-07-21 14:45:54 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-21 14:45:54 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-07-21 14:45:54 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+ERROR | 2023-07-21 14:46:03 | [main] network.HttpRequest (HttpRequest.java:22) - java.net.SocketException: Connection reset
+ERROR | 2023-07-21 14:46:03 | [main] source.SourceWeb (SourceWeb.java:81) - java.lang.IllegalStateException: No match found
+INFO  | 2023-07-21 14:46:18 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-21 14:46:18 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-07-21 14:46:18 | [main] source.SourceWeb (SourceWeb.java:49) - start classLogic
+INFO  | 2023-07-21 14:53:56 | [main] source.SourceWeb (SourceWeb.java:90) - classLogic successfully completed
+INFO  | 2023-07-21 14:54:08 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-07-21 14:54:08 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 97452641 bytes
+INFO  | 2023-07-21 14:54:08 | [main] core.ControlModule (ControlModule.java:41) - action: 543 sec
+ERROR | 2023-07-21 15:42:12 | [main] network.HttpRequest (HttpRequest.java:22) - org.jsoup.UnsupportedMimeTypeException: Unhandled content type. Must be text/*, application/xml, or application/*+xml. Mimetype=application/json, URL=https://64ba7c295e0670a501d63f8e.mockapi.io/users
+ERROR | 2023-07-22 17:08:13 | [main] network.HttpRequest (HttpRequest.java:53) - java.lang.NullPointerException
+INFO  | 2023-07-27 12:37:34 | [main] core.Launch (Launch.java:11) - start version 2.2
+WARN  | 2023-07-27 12:37:34 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [core.SpringConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [C:/Users/user/Desktop/eclipse-workspace/webDataCollector/webDataCollector3/resources/configuration.properties] cannot be opened because it does not exist
+INFO  | 2023-07-27 12:38:27 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 12:38:28 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 12:38:28 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-07-27 12:38:53 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 12:39:10 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-07-27 12:39:17 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 12:39:17 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-07-27 12:39:17 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-07-27 12:39:28 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 12:39:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-07-27 12:39:28 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-07-27 12:47:17 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 12:47:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-07-27 12:47:28 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 97612018 bytes
+INFO  | 2023-07-27 12:47:28 | [main] core.ControlModule (ControlModule.java:39) - action: 540 sec
+INFO  | 2023-07-27 12:58:44 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 12:58:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 13:01:33 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 13:01:34 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 13:01:34 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-07-27 16:08:43 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-07-27 16:08:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 16:08:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-07-27 16:08:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 16:08:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-07-27 16:08:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-07-27 16:08:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-07-27 16:08:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-07-27 16:08:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-07-27 16:08:45 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-07-27 16:09:12 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-07-27 16:09:28 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 16:09:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-07-27 16:09:28 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-07-27 16:09:48 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 16:09:48 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-07-27 16:09:48 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-07-27 16:09:49 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-java-developer-jobs-SRCH_IL.0,2_IN1_KO3,17.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:49 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-driver-jobs-SRCH_IL.0,2_IN1_KO3,9.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:49 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-accountant-jobs-SRCH_IL.0,2_IN1_KO3,13.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:49 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:50 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-sales-manager-jobs-SRCH_IL.0,2_IN1_KO3,16.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:50 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-nurse-jobs-SRCH_IL.0,2_IN1_KO3,8.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:50 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-java-developer-jobs-SRCH_IL.0,14_IN2_KO15,29.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:50 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-driver-jobs-SRCH_IL.0,14_IN2_KO15,21.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:50 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-accountant-jobs-SRCH_IL.0,14_IN2_KO15,25.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:51 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:51 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-attorney-jobs-SRCH_IL.0,14_IN2_KO15,23.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:51 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:51 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-sales-manager-jobs-SRCH_IL.0,14_IN2_KO15,28.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-07-27 16:09:51 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-07-27 16:09:51 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-nurse-jobs-SRCH_IL.0,14_IN2_KO15,20.htm?clickSource=searchBox]
+ERROR | 2023-07-27 16:09:51 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-07-27 16:09:51 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-07-27 16:09:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultGlassdoor.csv sent
+INFO  | 2023-07-27 16:09:51 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 44551060 bytes
+INFO  | 2023-07-27 16:09:51 | [main] core.ControlModule (ControlModule.java:39) - action: 66 sec
+ERROR | 2023-07-27 16:32:51 | [main] network.HttpRequest (HttpRequest.java:54) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox]
+INFO  | 2023-10-15 12:49:31 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-15 12:49:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 12:49:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-15 12:49:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 12:49:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-10-15 12:49:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 12:49:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-15 12:49:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 12:49:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-10-15 12:49:32 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 12:49:34 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:35 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:36 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:37 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:37 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:38 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:39 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:40 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:40 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:42 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:43 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:43 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:44 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:45 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:46 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:46 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:47 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:48 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:48 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:49 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:49:51 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:05 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 12:50:05 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 12:50:05 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-10-15 12:50:05 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 12:50:05 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:05 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:05 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:05 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:06 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:06 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:06 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:06 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:06 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 12:50:06 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-10-15 12:50:06 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 12:50:07 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-java-developer-jobs-SRCH_IL.0,2_IN1_KO3,17.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:07 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:07 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-driver-jobs-SRCH_IL.0,2_IN1_KO3,9.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:07 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:07 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-accountant-jobs-SRCH_IL.0,2_IN1_KO3,13.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:07 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:07 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-attorney-jobs-SRCH_IL.0,2_IN1_KO3,11.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:07 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:08 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-sales-manager-jobs-SRCH_IL.0,2_IN1_KO3,16.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:08 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/us-nurse-jobs-SRCH_IL.0,2_IN1_KO3,8.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:08 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-java-developer-jobs-SRCH_IL.0,14_IN2_KO15,29.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:08 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-driver-jobs-SRCH_IL.0,14_IN2_KO15,21.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:08 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-accountant-jobs-SRCH_IL.0,14_IN2_KO15,25.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:08 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-attorney-jobs-SRCH_IL.0,14_IN2_KO15,23.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-sales-manager-jobs-SRCH_IL.0,14_IN2_KO15,28.htm?context=Jobs&clickSource=searchBox]
+ERROR | 2023-10-15 12:50:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 12:50:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=[https://www.glassdoor.com/Job/united-kingdom-nurse-jobs-SRCH_IL.0,14_IN2_KO15,20.htm?clickSource=searchBox]
+ERROR | 2023-10-15 12:50:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 12:50:09 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 12:50:09 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultGlassdoor.csv sent
+INFO  | 2023-10-15 12:50:09 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 37314228 bytes
+INFO  | 2023-10-15 12:50:09 | [main] core.ControlModule (ControlModule.java:39) - action: 36 sec
+ERROR | 2023-10-15 13:11:39 | [main] network.HttpRequest (HttpRequest.java:55) - java.lang.NullPointerException
+INFO  | 2023-10-15 13:16:08 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 2
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 13:16:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2023-10-15 13:16:09 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 13:16:11 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:12 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:12 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:13 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:14 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:15 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:15 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:16 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:17 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:17 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:18 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:19 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:19 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:20 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:21 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:22 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:22 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:23 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:24 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:24 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:25 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:32 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:35 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:40 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 13:16:40 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 13:16:40 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-10-15 13:16:40 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 13:16:40 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:40 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:40 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:40 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:41 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:41 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:41 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:41 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:16:41 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:16:41 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 13:16:41 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 13:16:41 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-10-15 13:16:41 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 37333874 bytes
+INFO  | 2023-10-15 13:16:41 | [main] core.ControlModule (ControlModule.java:39) - action: 32 sec
+ERROR | 2023-10-15 13:19:51 | [main] network.HttpRequest (HttpRequest.java:54) - java.net.SocketTimeoutException: Read timeout
+INFO  | 2023-10-15 13:47:34 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 2
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 13:47:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2023-10-15 13:47:35 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 13:48:03 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:08 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 13:48:08 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 13:48:08 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-10-15 13:48:08 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 13:48:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:09 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:09 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 13:48:10 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 13:48:10 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 13:48:10 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 13:48:10 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-10-15 13:48:10 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 37238489 bytes
+INFO  | 2023-10-15 13:48:10 | [main] core.ControlModule (ControlModule.java:39) - action: 34 sec
+INFO  | 2023-10-15 14:11:48 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 1
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-15 14:11:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2023-10-15 14:11:49 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-15 14:11:50 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:11:50 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 14:12:00 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:12:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 14:12:00 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:12:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 14:12:00 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:12:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 14:12:00 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:12:00 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 14:12:01 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:12:01 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-15 14:12:01 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 14:12:01 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-15 14:12:01 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-15 14:12:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2023-10-15 14:12:01 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 0 bytes
+INFO  | 2023-10-15 14:12:01 | [main] core.ControlModule (ControlModule.java:39) - action: 11 sec
+ERROR | 2023-10-15 14:16:07 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 15:12:41 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0]
+ERROR | 2023-10-15 15:21:01 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/nedvizhimost]
+ERROR | 2023-10-16 11:48:40 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=429, URL=[https://www.avito.ru/moskva/nedvizhimost]
+INFO  | 2023-10-16 11:51:43 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-16 11:51:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-16 11:51:44 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-16 11:51:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-16 11:51:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-10-16 11:51:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-16 11:51:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-16 11:51:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-16 11:51:45 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-10-16 11:51:45 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-16 11:52:33 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-16 11:52:39 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-16 11:52:39 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-16 11:52:39 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-10-16 11:52:39 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-10-16 11:58:14 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-16 11:58:24 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-10-16 11:58:24 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-16 12:00:06 | [main] network.HttpRequest (HttpRequest.java:33) - org.jsoup.HttpStatusException: HTTP error fetching URL. Status=502, URL=[https://hh.ru/search/vacancy?clusters=true&enable_snippets=true&specialization=17]
+ERROR | 2023-10-16 12:00:06 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-16 12:00:06 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-16 12:00:07 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-10-16 12:00:07 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 89679956 bytes
+INFO  | 2023-10-16 12:00:07 | [main] core.ControlModule (ControlModule.java:39) - action: 501 sec
+INFO  | 2023-10-23 19:16:58 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-23 19:17:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-23 19:17:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-23 19:17:05 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-23 19:17:05 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-10-23 19:17:05 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-23 19:17:05 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-23 19:17:05 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-23 19:17:05 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-10-23 19:17:05 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-23 19:17:23 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-23 19:17:27 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-23 19:17:37 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-23 19:17:46 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-23 19:17:52 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-23 19:17:52 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-10-23 19:17:52 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-23 19:21:05 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-23 19:23:30 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-23 19:23:42 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-10-23 19:23:42 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-10-23 19:25:27 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-23 19:25:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-10-23 19:25:28 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 92222227 bytes
+INFO  | 2023-10-23 19:25:28 | [main] core.ControlModule (ControlModule.java:39) - action: 503 sec
+INFO  | 2023-10-31 14:26:44 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-10-31 14:26:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-31 14:26:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-10-31 14:26:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-10-31 14:26:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-10-31 14:26:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-10-31 14:26:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-10-31 14:26:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-10-31 14:26:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-10-31 14:26:46 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-31 14:27:13 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2023-10-31 14:27:26 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-31 14:27:28 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-31 14:27:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-10-31 14:27:28 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2023-10-31 14:32:47 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2023-10-31 14:33:03 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-31 14:33:13 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-10-31 14:33:13 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-10-31 14:34:57 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-10-31 14:34:59 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-10-31 14:34:59 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 92256360 bytes
+INFO  | 2023-10-31 14:34:59 | [main] core.ControlModule (ControlModule.java:39) - action: 493 sec
+INFO  | 2023-11-06 11:51:21 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2023-11-06 11:51:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2023-11-06 11:51:22 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-11-06 11:52:02 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-11-06 11:52:02 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2023-11-06 11:52:02 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-11-06 11:57:34 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-11-06 11:57:43 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2023-11-06 11:57:43 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2023-11-06 11:59:25 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2023-11-06 11:59:26 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2023-11-06 11:59:26 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 92011512 bytes
+INFO  | 2023-11-06 11:59:26 | [main] core.ControlModule (ControlModule.java:39) - action: 483 sec
+INFO  | 2024-01-04 10:52:54 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-04 10:52:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-04 10:52:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2024-01-04 10:52:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2024-01-04 10:52:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 3
+INFO  | 2024-01-04 10:52:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-04 10:52:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-04 10:52:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-04 10:52:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 3
+INFO  | 2024-01-04 10:52:55 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2024-01-04 10:53:15 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:16 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:17 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:17 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:18 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:19 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:20 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:21 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:21 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:22 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:23 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:24 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:25 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:26 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:27 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:28 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:29 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:29 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:30 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:31 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-04 10:53:32 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-04 10:53:32 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2024-01-04 10:53:32 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-01-04 10:53:32 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2024-01-04 10:59:11 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2024-01-04 10:59:21 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterJava.csv sent
+INFO  | 2024-01-04 10:59:21 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2024-01-04 10:59:48 | [main] source.SourceWeb (SourceWeb.java:76) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-04 11:00:55 | [main] source.SourceWeb (SourceWeb.java:79) - classLogic successfully completed
+INFO  | 2024-01-04 11:00:56 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
+INFO  | 2024-01-04 11:00:56 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 93073866 bytes
+INFO  | 2024-01-04 11:00:56 | [main] core.ControlModule (ControlModule.java:39) - action: 481 sec

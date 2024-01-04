@@ -8,7 +8,7 @@ public class MySQLExe {
 		try{
 	        String url = "jdbc:mysql://localhost:3306/sun?serverTimezone=Europe/Moscow&useSSL=false";
 	        String username = "root";
-	        String password = "09121982sakl";
+	        String password = "";
 	        Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
 	         System.out.println("+++");
 	        try (Connection conn = DriverManager.getConnection(url, username, password)){
@@ -42,7 +42,7 @@ public class MySQLExe {
 		try{
 	        String url = "jdbc:mysql://localhost:3306/sun?serverTimezone=Europe/Moscow&useSSL=false";
 	        String username = "root";
-	        String password = "09121982sakl";
+	        String password = "";
 	        Class.forName("com.mysql.cj.jdbc.Driver").getDeclaredConstructor().newInstance();
 	         System.out.println("+++");
 	        try (Connection conn = DriverManager.getConnection(url, username, password)) {
