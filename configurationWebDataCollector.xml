@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <cases>
-        <case>
+        <!--<case>
             <fileConfig>headHunter.csv</fileConfig>
             <thread>8</thread>
             <mode>test_test</mode>
 			<typeOfSourceExtractor>java_net</typeOfSourceExtractor>
-        </case>
+        </case>-->
         <case>
             <fileConfig>avito.csv</fileConfig>
             <thread>4</thread>

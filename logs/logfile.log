@@ -2415,3 +2415,223 @@ INFO  | 2024-01-04 11:00:55 | [main] source.SourceWeb (SourceWeb.java:79) - clas
 INFO  | 2024-01-04 11:00:56 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultHeadHunterTotalVac.csv sent
 INFO  | 2024-01-04 11:00:56 | [main] core.ControlModule (ControlModule.java:38) - total traffic: 93073866 bytes
 INFO  | 2024-01-04 11:00:56 | [main] core.ControlModule (ControlModule.java:39) - action: 481 sec
+INFO  | 2024-01-05 14:41:48 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:41:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:41:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2024-01-05 14:41:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:41:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 2
+INFO  | 2024-01-05 14:41:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:41:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:41:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:41:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2024-01-05 14:41:49 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2024-01-05 14:43:04 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - reading configuration successfully completed
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:92) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:72) - amount cases: 2
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:43:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2024-01-05 14:43:04 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2024-01-05 14:47:08 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 2
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:47:09 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2024-01-05 14:47:09 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2024-01-05 14:47:09 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2024-01-05 14:49:29 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 2
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:49:30 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2024-01-05 14:49:30 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2024-01-05 14:49:30 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2024-01-05 14:50:12 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:50:12 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:50:12 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 14:50:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:50:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 2
+INFO  | 2024-01-05 14:50:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:50:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:50:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:50:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 2
+INFO  | 2024-01-05 14:50:13 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+INFO  | 2024-01-05 14:50:13 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2024-01-05 14:53:13 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:53:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:94) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 14:53:13 | [main] source.SourceWeb (SourceWeb.java:97) - classLogic successfully completed
+INFO  | 2024-01-05 14:53:13 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-05 14:53:13 | [main] core.ControlModule (ControlModule.java:33) - total traffic: 0 bytes
+INFO  | 2024-01-05 14:53:13 | [main] core.ControlModule (ControlModule.java:34) - action: 0 sec
+INFO  | 2024-01-05 14:54:39 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 14:54:40 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:46) - start classLogic
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:93) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 14:54:40 | [main] source.SourceWeb (SourceWeb.java:96) - classLogic successfully completed
+INFO  | 2024-01-05 14:54:40 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-05 14:54:40 | [main] core.ControlModule (ControlModule.java:33) - total traffic: 0 bytes
+INFO  | 2024-01-05 14:54:40 | [main] core.ControlModule (ControlModule.java:34) - action: 0 sec
+INFO  | 2024-01-05 15:01:09 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:01:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:01:10 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:01:24 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 15:01:39 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:17:47 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:17:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:17:48 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:18:02 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:19:13 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:19:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:19:13 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:19:29 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:20:57 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:20:57 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:20:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:20:58 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:21:12 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-05 15:21:29 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:21:49 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:21:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:21:50 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2024-01-05 15:23:22 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:23:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:23:23 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+INFO  | 2024-01-05 15:51:59 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:52:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:52:00 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:52:14 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:52:53 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:52:53 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:52:53 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:52:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:52:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:52:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:52:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:52:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:52:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:52:54 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:54:52 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:55:30 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:55:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:55:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:55:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:55:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:55:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:55:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:55:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:55:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:55:31 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:55:45 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:56:23 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:56:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:56:24 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 15:56:39 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 15:59:32 | [main] core.Launch (Launch.java:11) - start version 2.2
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-05 15:59:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-01-05 15:59:32 | [main] source.SourceWeb (SourceWeb.java:48) - start classLogic
+ERROR | 2024-01-05 16:00:12 | [main] source.SourceWeb (SourceWeb.java:98) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-05 16:01:10 | [main] source.SourceWeb (SourceWeb.java:101) - classLogic successfully completed
+INFO  | 2024-01-05 16:01:10 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-05 16:01:10 | [main] core.ControlModule (ControlModule.java:33) - total traffic: 0 bytes
+INFO  | 2024-01-05 16:01:10 | [main] core.ControlModule (ControlModule.java:34) - action: 97 sec

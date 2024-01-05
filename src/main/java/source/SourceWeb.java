@@ -38,18 +38,39 @@ public class SourceWeb implements Source {
 			classLogic();
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
+		} catch (InterruptedException e) {
+			throw new RuntimeException(e);
 		}
 		return "getSourceWeb: " + data;
 	}
 	
-	public void classLogic() throws UnsupportedEncodingException {		
+	public void classLogic() throws UnsupportedEncodingException, InterruptedException {
 		LOG.info("start classLogic");
 
 		for (int i = 0; i < configurationObject.getListCase().get(number).getListInstanceData().size(); i++) {
 			System.out.println(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 //			String text = new HttpRequest().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
-			String method = "cmd_url";
-			String text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+
+			String text = "";
+			String typeOfSourceExtractor = configurationObject.getListCase().get(number).getListInstanceData().get(i).getTypeOfSourceExtractor();
+			switch (typeOfSourceExtractor) {
+				case "java_simple_http":
+					System.out.println("java_simple_http");
+					text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+					break;
+
+				case "cmd_curl":
+					System.out.println("cmd_curl");
+					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+					System.out.println(text.length());
+					Thread.sleep(10000);
+					break;
+
+				case "someting another":
+					System.out.println("someting another..");
+					break;
+			}
+
 			/* extracting marker from total text */
 			String marker = configurationObject.getListCase().get(number).getListInstanceData().get(i).getMarker();
 			String regex = configurationObject.getListCase().get(number).getListInstanceData().get(i).getRegex();

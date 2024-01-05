@@ -59,6 +59,7 @@ public class ConfigurationBetta implements Configuration  {
 						id.setMarker(array[1]);
 						id.setRegex(array[2]);
 						id.setFileDestination(array[3]);
+						id.setTypeOfSourceExtractor(array[4]);
 						instanceData.add(id);
 					}
 				} catch(ArrayIndexOutOfBoundsException e) {}
