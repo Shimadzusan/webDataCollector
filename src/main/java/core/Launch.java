@@ -13,7 +13,6 @@ public class Launch {
         AnnotationConfigApplicationContext springContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
         ControlModule controlModule = springContext.getBean("controlModule", ControlModule.class);
         controlModule.action();
-        //cm.someMethod();
 	}
 
 }

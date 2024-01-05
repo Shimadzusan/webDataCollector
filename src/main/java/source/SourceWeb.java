@@ -48,6 +48,7 @@ public class SourceWeb implements Source {
 		for (int i = 0; i < configurationObject.getListCase().get(number).getListInstanceData().size(); i++) {
 			System.out.println(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 //			String text = new HttpRequest().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+			String method = "cmd_url";
 			String text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 			/* extracting marker from total text */
 			String marker = configurationObject.getListCase().get(number).getListInstanceData().get(i).getMarker();

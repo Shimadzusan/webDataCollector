@@ -22,11 +22,6 @@ public class ControlModule {
 		this.destination = destination;
 	}
 	
-	@Deprecated
-	public void someMethod() {
-		System.out.println("someMethod");
-	}
-	
 	public void action() {
 		long t = System.currentTimeMillis();	//..for time monitoring
 		ConfigurationObject configurationObject = this.config.getConfiguration();

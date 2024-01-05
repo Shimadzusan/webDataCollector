@@ -1,7 +1,15 @@
 package core;
 
 public class InstanceData {
-	String url,marker,regex,tableData,value,columnName,fileDestination;
+	String url,marker,regex,tableData,value,columnName,fileDestination,typeOfSourceExtractor,headers;
+
+	public String getTypeOfSourceExtractor() {return typeOfSourceExtractor;}
+
+	public void setTypeOfSourceExtractor(String typeOfSourceExtractor) {this.typeOfSourceExtractor = typeOfSourceExtractor;}
+
+	public String getHeaders() {return headers;}
+
+	public void setHeaders(String headers) {this.headers = headers;}
 
 	public synchronized String getFileDestination() {
 		return fileDestination;
@@ -35,9 +43,7 @@ public class InstanceData {
 		this.url = url;
 	}
 
-	public synchronized String getMarker() {
-		return marker;
-	}
+	public synchronized String getMarker() {return marker;}
 
 	public synchronized void setMarker(String marker) {
 		this.marker = marker;
