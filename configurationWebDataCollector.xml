@@ -4,7 +4,7 @@
         <case>
             <fileConfig>headHunter.csv</fileConfig>
             <thread>8</thread>
-            <mode>test</mode>
+            <mode>test_test</mode>
 			<typeOfSourceExtractor>java_net</typeOfSourceExtractor>
         </case>
         <case>
