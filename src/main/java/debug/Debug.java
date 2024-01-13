@@ -1,5 +1,6 @@
 package debug;
 
+import com.sun.management.ThreadMXBean;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -8,15 +9,18 @@ import org.jsoup.select.Elements;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.management.ManagementFactory;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+import java.nio.charset.StandardCharsets;
 import java.sql.SQLException;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import javax.management.*;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -32,12 +36,104 @@ import util.LocalReflect;
 import java.net.*;
 import java.io.*;
 
+import java.io.IOException;
+import java.util.Set;
+import javax.management.remote.JMXConnector;
+import javax.management.remote.JMXConnectorFactory;
+import javax.management.remote.JMXServiceURL;
+
 public class Debug {
     private final static Logger LOG = (Logger) LogManager.getLogger(Debug.class);
 
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-        avito();
+
+        try {
+            String hostname = "localhost";  // Replace with your JMX hostname
+            int port = 3555;  // Replace with your JMX port number
+
+            JMXServiceURL url = new JMXServiceURL("service:jmx:rmi:///jndi/rmi://" + hostname + ":" + port + "/jmxrmi");
+            JMXConnector jmxc = JMXConnectorFactory.connect(url, null);
+
+            MBeanServerConnection mbsc = jmxc.getMBeanServerConnection();
+//            QueryExp query = Query.match(Query.attr("ThreadCount"), Query.value("int"));
+            ObjectName mbeanName = new ObjectName("java.lang:type=Threading,*");
+            Set<ObjectInstance> mbeans = mbsc.queryMBeans(mbeanName, null);
+            for (ObjectInstance mbean : mbeans) {
+                ObjectName objectName = mbean.getObjectName();
+                System.out.println("MBean: " + objectName);
+//                for (MBeanAttributeInfo attribute : mbsc.getMBeanInfo(objectName).getAttributes()) {
+                MBeanAttributeInfo attribute = mbsc.getMBeanInfo(objectName).getAttributes()[0];
+                String attributeName = attribute.getName();
+                    Object attributeValue = mbsc.getAttribute(objectName, "ThreadCount");
+                    System.out.println("  Attribute Name: " + attributeName + " - Value: " + attributeValue);
+//                }
+            }
+
+            //Set<ObjectInstance> mbeans = mbsc.queryMBeans(null, null);
+//            for (ObjectInstance mbean : mbeans) {
+//                ObjectName objectName = mbean.getObjectName();
+//                System.out.println("MBean: " + objectName);
+//                MBeanInfo mBeanInfo = mbsc.getMBeanInfo(objectName);
+//                MBeanAttributeInfo[] attributes = mBeanInfo.getAttributes();
+//                for (MBeanAttributeInfo attribute : attributes) {
+//                    System.out.println("  Attribute: " + attribute.getName() + " - Type: " + attribute.getType() + " - Description: " + attribute.getDescription());
+//                }
+//            }
+//            for (ObjectInstance mbean : mbeans) {
+//                ObjectName objectName = mbean.getObjectName();
+//                System.out.println("MBean: " + objectName);
+//                MBeanAttributeInfo[] attributes = mbsc.getMBeanInfo(objectName).getAttributes();
+//                for (MBeanAttributeInfo attribute : attributes) {
+//                    String attributeName = attribute.getName();
+//                    Object attributeValue = null;
+//                    try {
+//                        attributeValue = mbsc.getAttribute(objectName, attributeName);
+//                    } catch (RuntimeMBeanException e){
+//                        System.out.println("RuntimeMBeanException+++");
+//                    }
+//                    System.out.println("  Attribute Name: " + attributeName + " - Value: " + attributeValue);
+//                }
+//            }
+
+
+            jmxc.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ReflectionException e) {
+            throw new RuntimeException(e);
+        } catch (InstanceNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IntrospectionException e) {
+            throw new RuntimeException(e);
+        } catch (AttributeNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (MBeanException e) {
+            throw new RuntimeException(e);
+        } catch (MalformedObjectNameException e) {
+            throw new RuntimeException(e);
+        }
+//        catch (RuntimeMBeanException e) {
+//            System.out.println("RuntimeMBeanException++");
+//        }
+        ///////////////////////////////////////////////////////////////////
+        //        DataOperation dataOperation = new DataOperation();
+//        String s = dataOperation.readDataFromFile("C:\\Users\\tokug\\Desktop\\counter_heap.txt");
+//
+//        String[] s_array = s.split("\\n");
+//        for (int i = 0; i < s_array.length; i++) {
+//            String[] s2_array = s_array[i].split("\\.");
+//            try {
+//                System.out.println(s2_array[0] + " " + s2_array[1]);
+//            } catch (IndexOutOfBoundsException e) {}
+//        }
+        ////////////////////////////////////////////////////////
+        //        byte[] byteArray = { 109, 101, 116, 114, 105, 99, 95, 50 }; // Replace this with your actual byte array
+//
+//        String str = new String(byteArray, StandardCharsets.UTF_8); // Assuming UTF-8 encoding, replace with the appropriate encoding if needed
+//
+//        System.out.println(str);
+        //headHunter();
 //        String command = "curl https://justjoin.it/all-locations/java";
 //        try {
 //            Process process = Runtime.getRuntime().exec(command);
@@ -186,19 +282,11 @@ public class Debug {
         System.out.println(text);
     }
 
-    public static void version_3() {
+    public static void headHunter() {
         //String url = "https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post";
-        String url = "https://hh.ru/vacancy/78619838?from=vacancy_search_list&amp;query=Java";
-        //String text = new HttpRequest().getWebText(url);
-        String text = "\u042d\u0442\u0438\u043a\u0430 \u0438\u00a0\u043a\u043e\u043c\u043f\u043b\u0430\u0435\u043d\u0441";
-        //System.out.println(text);
-        //LOG.info(text);
-
-        //String encodedText = "\u0410\u043b\u0435\u043a\u0441\u0435\u0435\u0432\u0441\u043a\u0430\u044f";
-        String decodedText = java.nio.charset.Charset.forName("UTF-8").decode(java.nio.ByteBuffer.wrap(text.getBytes())).toString();
-        System.out.println(decodedText);
-        LOG.info(decodedText);
-
+        String url = "https://hh.ru/search/resume?text=Java&logic=normal&pos=full_text&exp_period=all_time&specialization=1.221&area=1&relocation=living_or_relocation&salary_from=&salary_to=&currency_code=RUR&education=none&age_from=&age_to=&gender=unknown&order_by=publication_time&search_period=0&items_on_page=20&from=suggest_post";
+        String text = new HttpRequest().getWebText(url);
+        System.out.println(text);
     }
 
     public static void localReflect() throws FileNotFoundException, IOException {

@@ -1,30 +1,43 @@
 package source;
 
+import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import io.prometheus.client.Counter;
+import io.prometheus.client.exporter.HTTPServer;
+//import io.prometheus.client.spring.boot.EnablePrometheusEndpoint;
+//import io.prometheus.client.spring.boot.EnableSpringBootMetricsCollector;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
+
+
 import configuration.Configuration;
 import configuration.ConfigurationObject;
-import network.HttpRequest;
 import network.HttpRequestDecorator;
 
 /** input: URL, marker, regex 
  * 	output: value from webpage for storage in database 
  * 	This class implements one from many possibility extracting data from webpage */
+//@EnableSpringBootMetricsCollector
+//@EnablePrometheusEndpoint
 public class SourceWeb implements Source {
 	private final Logger LOG = (Logger) LogManager.getLogger(SourceWeb.class);
 	ConfigurationObject configurationObject;
 	String data = "";
-	int number;
+	int number;//..number of row in configuration, maybe
+	int exampleVar = 1;
+
 	
-	public SourceWeb(Configuration configuration) {
+	public SourceWeb(Configuration configuration) throws IOException {
 		this.configurationObject = configuration.getConfiguration();
 	}
 
+	public void exampleMethod() {
+		this.exampleVar = this.exampleVar * 2;
+	}
 	@Override
 	public boolean setConfigurationData(ConfigurationObject configurationObject) {
 		this.configurationObject = configurationObject;
@@ -54,20 +67,25 @@ public class SourceWeb implements Source {
 			String text = "";
 			String typeOfSourceExtractor = configurationObject.getListCase().get(number).getListInstanceData().get(i).getTypeOfSourceExtractor();
 			switch (typeOfSourceExtractor) {
-				case "java_simple_http":
-					System.out.println("java_simple_http");
+				case "java_net":
+					System.out.println("java_net");
 					text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+					Thread.sleep(10000);
 					break;
 
 				case "cmd_curl":
 					System.out.println("cmd_curl");
 					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 					System.out.println(text.length());
-					Thread.sleep(10000);
+					Thread.sleep(8000);
 					break;
 
-				case "someting another":
-					System.out.println("someting another..");
+				case "uniq_case_1":
+					System.out.println("..uniq_case_1");
+					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+					System.out.println(text.length());
+					System.out.println(text);
+					Thread.sleep(7000);
 					break;
 			}
 

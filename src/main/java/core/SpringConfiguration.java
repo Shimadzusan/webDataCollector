@@ -3,6 +3,8 @@ package core;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+//import io.prometheus.client.spring.boot.EnablePrometheusEndpoint;
+//import io.prometheus.client.spring.boot.EnableSpringBootMetricsCollector;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,6 +22,7 @@ import org.springframework.context.annotation.ComponentScan;
 @Configuration
 @ComponentScan({"core", "source", "destination"})
 @PropertySource("configuration.properties")
+//@PropertySource("application.properties")
 public class SpringConfiguration {
 //	String configurationFile = "configurationWebDataCollector.xml";
 	
@@ -30,9 +33,7 @@ public class SpringConfiguration {
 //    private int volume;
 	
 	@Bean
-	public ConfigurationAlpha configurationAlpha() {
-		return new ConfigurationAlpha();
-	}
+	public ConfigurationAlpha configurationAlpha() {return new ConfigurationAlpha();}
 	
 	@Bean
 	public ConfigurationBetta configurationBetta() throws FileNotFoundException, IOException {
@@ -48,16 +49,18 @@ public class SpringConfiguration {
 	public SourceAlpha sourceAlpha() {
 		return new SourceAlpha();
 	}
-	
+
 	@Bean
 	public SourceWeb sourceWeb() throws FileNotFoundException, IOException {
-		return new SourceWeb(configurationBetta());
+		SourceWeb sourceWeb = new SourceWeb(configurationBetta());//..only for example and comparisons
+		for (int i = 0; i < 25; i++) {
+			sourceWeb.exampleMethod();
+		}
+		return sourceWeb;
 	}
 	
 	@Bean
-	public DestinationAlpha destinationAlpha() {
-		return new DestinationAlpha();
-	}
+	public DestinationAlpha destinationAlpha() {return new DestinationAlpha();}
 	
 	@Bean
 	public DestinationFile destinationFile() throws FileNotFoundException, IOException {

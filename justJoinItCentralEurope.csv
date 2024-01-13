@@ -1,0 +1,6 @@
+url;marker;regex;fileDestination;typeOfSourceExtractor;headers
+https://justjoin.it/all-locations/javascript;Default Work: JS.*offers;[0-9]+;resultJustJoinItCentralEurope.csv;uniq_case_1;0
+https://justjoin.it/all-locations/php;Default Work: PHP.*offers;[0-9]+;resultJustJoinItCentralEurope.csv;uniq_case_1;0
+https://justjoin.it/all-locations/python;Default Work: Python.*offers;[0-9]+;resultJustJoinItCentralEurope.csv;uniq_case_1;0
+https://justjoin.it/all-locations/java;Default Work: Java.*offers;[0-9]+;resultJustJoinItCentralEurope.csv;uniq_case_1;0
+https://justjoin.it/all-locations/c;Default Work: C.*offers;[0-9]+;resultJustJoinItCentralEurope.csv;uniq_case_1;0
