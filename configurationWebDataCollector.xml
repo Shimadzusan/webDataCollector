@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
     <cases>
-        <!--<case>
+        <case>
             <fileConfig>headHunter.csv</fileConfig>
             <thread>8</thread>
             <mode>test_test</mode>
@@ -12,19 +12,24 @@
             <thread>4</thread>
             <mode>standard</mode>
 			<typeOfSourceExtractor>cmd_curl</typeOfSourceExtractor>
-        </case>-->
+        </case>
 		<case>
             <fileConfig>justJoinItCentralEurope.csv</fileConfig>
             <thread>4</thread>
             <mode>standard</mode>
 			<typeOfSourceExtractor>uniq_case_1</typeOfSourceExtractor>
         </case>
+		<case>
+            <fileConfig>jobsora.csv</fileConfig>
+            <thread>4</thread>
+            <mode>standard</mode>
+			<typeOfSourceExtractor>uniq_case_2</typeOfSourceExtractor>
+        </case>
         <!--<case>
           <fileConfig>headHunterJava.csv</fileConfig>
           <thread>2</thread>
           <mode>extended</mode>
         </case>
-
         <case>
           <fileConfig>headHunterTotalVac.csv</fileConfig>
           <thread>2</thread>

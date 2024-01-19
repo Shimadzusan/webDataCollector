@@ -70,7 +70,7 @@ public class SourceWeb implements Source {
 				case "java_net":
 					System.out.println("java_net");
 					text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
-					Thread.sleep(10000);
+					Thread.sleep(7000);
 					break;
 
 				case "cmd_curl":
@@ -85,7 +85,7 @@ public class SourceWeb implements Source {
 					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 					System.out.println(text.length());
 					System.out.println(text);
-					Thread.sleep(7000);
+					Thread.sleep(8500);
 					break;
 			}
 

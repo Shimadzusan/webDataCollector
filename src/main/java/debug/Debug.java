@@ -29,6 +29,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
 import network.HttpRequest;
+import source.CmdCurl;
 import source.SourceWeb;
 import util.DataOperation;
 import util.LocalReflect;
@@ -47,28 +48,30 @@ public class Debug {
 
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
+        alt_glassdoor();
 
-        try {
-            String hostname = "localhost";  // Replace with your JMX hostname
-            int port = 3555;  // Replace with your JMX port number
-
-            JMXServiceURL url = new JMXServiceURL("service:jmx:rmi:///jndi/rmi://" + hostname + ":" + port + "/jmxrmi");
-            JMXConnector jmxc = JMXConnectorFactory.connect(url, null);
-
-            MBeanServerConnection mbsc = jmxc.getMBeanServerConnection();
-//            QueryExp query = Query.match(Query.attr("ThreadCount"), Query.value("int"));
-            ObjectName mbeanName = new ObjectName("java.lang:type=Threading,*");
-            Set<ObjectInstance> mbeans = mbsc.queryMBeans(mbeanName, null);
-            for (ObjectInstance mbean : mbeans) {
-                ObjectName objectName = mbean.getObjectName();
-                System.out.println("MBean: " + objectName);
-//                for (MBeanAttributeInfo attribute : mbsc.getMBeanInfo(objectName).getAttributes()) {
-                MBeanAttributeInfo attribute = mbsc.getMBeanInfo(objectName).getAttributes()[0];
-                String attributeName = attribute.getName();
-                    Object attributeValue = mbsc.getAttribute(objectName, "ThreadCount");
-                    System.out.println("  Attribute Name: " + attributeName + " - Value: " + attributeValue);
-//                }
-            }
+    //JMX
+//        try {
+//            String hostname = "localhost";  // Replace with your JMX hostname
+//            int port = 3555;  // Replace with your JMX port number
+//
+//            JMXServiceURL url = new JMXServiceURL("service:jmx:rmi:///jndi/rmi://" + hostname + ":" + port + "/jmxrmi");
+//            JMXConnector jmxc = JMXConnectorFactory.connect(url, null);
+//
+//            MBeanServerConnection mbsc = jmxc.getMBeanServerConnection();
+////            QueryExp query = Query.match(Query.attr("ThreadCount"), Query.value("int"));
+//            ObjectName mbeanName = new ObjectName("java.lang:type=Threading,*");
+//            Set<ObjectInstance> mbeans = mbsc.queryMBeans(mbeanName, null);
+//            for (ObjectInstance mbean : mbeans) {
+//                ObjectName objectName = mbean.getObjectName();
+//                System.out.println("MBean: " + objectName);
+////                for (MBeanAttributeInfo attribute : mbsc.getMBeanInfo(objectName).getAttributes()) {
+//                MBeanAttributeInfo attribute = mbsc.getMBeanInfo(objectName).getAttributes()[0];
+//                String attributeName = attribute.getName();
+//                    Object attributeValue = mbsc.getAttribute(objectName, "ThreadCount");
+//                    System.out.println("  Attribute Name: " + attributeName + " - Value: " + attributeValue);
+////                }
+//            }
 
             //Set<ObjectInstance> mbeans = mbsc.queryMBeans(null, null);
 //            for (ObjectInstance mbean : mbeans) {
@@ -97,22 +100,31 @@ public class Debug {
 //            }
 
 
-            jmxc.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ReflectionException e) {
-            throw new RuntimeException(e);
-        } catch (InstanceNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (IntrospectionException e) {
-            throw new RuntimeException(e);
-        } catch (AttributeNotFoundException e) {
-            throw new RuntimeException(e);
-        } catch (MBeanException e) {
-            throw new RuntimeException(e);
-        } catch (MalformedObjectNameException e) {
-            throw new RuntimeException(e);
+            //jmxc.close();
         }
+
+    private static void alt_glassdoor() {
+        System.out.println("..uniq_case_1");
+        String text = new CmdCurl().getWebText("https://us.jobsora.com/jobs/usa/q-attorney");
+        System.out.println(text.length());
+        System.out.println(text);
+    }
+
+//   catch (IOException e) {
+//            e.printStackTrace();
+//        } catch (ReflectionException e) {
+//            throw new RuntimeException(e);
+//        } catch (InstanceNotFoundException e) {
+//            throw new RuntimeException(e);
+//        } catch (IntrospectionException e) {
+//            throw new RuntimeException(e);
+//        } catch (AttributeNotFoundException e) {
+//            throw new RuntimeException(e);
+//        } catch (MBeanException e) {
+//            throw new RuntimeException(e);
+//        } catch (MalformedObjectNameException e) {
+//            throw new RuntimeException(e);
+//        }
 //        catch (RuntimeMBeanException e) {
 //            System.out.println("RuntimeMBeanException++");
 //        }
@@ -267,7 +279,7 @@ public class Debug {
 //			for (int i = 20; i < 40; i++) {
 //				System.out.println("https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post&page=" + i + ";\\{\"auctionData.*;\\{\"auctionData.*;sun;itSector;vacMoscowJavaDev");
 //			}
-    }
+
 
     public static void joinItPl() throws IOException {
 //		String url = "https://64ba7c295e0670a501d63f8e.mockapi.io/users";
