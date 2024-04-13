@@ -21,7 +21,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @Configuration
 @ComponentScan({"core", "source", "destination"})
-@PropertySource("configuration.properties")
+@PropertySource("classpath:configuration.properties")
 //@PropertySource("application.properties")
 public class SpringConfiguration {
 //	String configurationFile = "configurationWebDataCollector.xml";
@@ -29,11 +29,12 @@ public class SpringConfiguration {
 	@Value("${configuration.name}")
     private String configurationFile;
 
-//    @Value("${musicPlayer.volume}")
-//    private int volume;
+	@Value("${configuration.mainTimeInterval}")
+	public int mainTimeInterval;
 	
 	@Bean
-	public ConfigurationAlpha configurationAlpha() {return new ConfigurationAlpha();}
+	public ConfigurationAlpha configurationAlpha() {
+		return new ConfigurationAlpha();}
 	
 	@Bean
 	public ConfigurationBetta configurationBetta() throws FileNotFoundException, IOException {

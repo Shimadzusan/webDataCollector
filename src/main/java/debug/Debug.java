@@ -1,6 +1,6 @@
 package debug;
 
-import com.sun.management.ThreadMXBean;
+import network.CmdCurl;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -9,18 +9,12 @@ import org.jsoup.select.Elements;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.lang.management.ManagementFactory;
-import java.net.HttpURLConnection;
-import java.net.URL;
 
-import java.nio.charset.StandardCharsets;
 import java.sql.SQLException;
-import java.util.Iterator;
-import java.util.Properties;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.management.*;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -29,26 +23,90 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
 import network.HttpRequest;
-import source.CmdCurl;
-import source.SourceWeb;
 import util.DataOperation;
 import util.LocalReflect;
 
 import java.net.*;
 import java.io.*;
 
-import java.io.IOException;
-import java.util.Set;
-import javax.management.remote.JMXConnector;
-import javax.management.remote.JMXConnectorFactory;
-import javax.management.remote.JMXServiceURL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 public class Debug {
     private final static Logger LOG = (Logger) LogManager.getLogger(Debug.class);
+    private static Set<String> links = new HashSet<>();
 
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
-        alt_glassdoor();
+
+        String websiteUrl = "http://must-have.group/"; // Replace with the actual website URL you want to start crawling from
+        crawl(websiteUrl, websiteUrl);
+        printLinks();
+
+//        String[] arrayAddresses = {"http://must-have.group/+"};
+//        HashSet<String> hset2level = extractHtmlLinks(arrayAddresses);
+//
+//        System.out.println("+++");
+//        System.out.println(hset2level.size());
+//        for (String state : hset2level) {
+//            System.out.println("level_2: " + state);
+//        }
+//        arrayAddresses = hset2level.toArray(new String[hset2level.size()]);
+//        HashSet<String> hset3level = extractHtmlLinks(arrayAddresses);
+//
+//        for (String state : hset3level) {
+//            System.out.println("level_3: " + state);
+//        }
+
+
+        
+//        int[] arr = {19236,4845,12138,41,0,41,6876,0,0,0,92,564,15553,1806,92,29280,3518,13533,29057,23574,5903,582};
+//        Random rn2 = new Random();
+//        for (int i = 0; i < arr.length; i++) {
+//            System.out.print((arr[i] + rn2.nextInt(65)) + ";");
+//
+//        }
+
+        String inputDateStr = "20230422";
+
+        try {
+            // Parse the input date string
+            SimpleDateFormat inputDateFormat = new SimpleDateFormat("yyyyMMdd");
+            Date inputDate = inputDateFormat.parse(inputDateStr);
+
+            // Format the date to the desired output format
+            SimpleDateFormat outputDateFormat = new SimpleDateFormat("dd.MM.yyyy");
+            String outputDateStr = outputDateFormat.format(inputDate);
+
+            System.out.println("Input date: " + inputDateStr);
+            System.out.println("Output date: " + outputDateStr);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+        Random rn = new Random();
+        for (int i = 0; i < 20; i++) {
+            System.out.println(rn.nextInt(50));
+        }
+    	
+//    	 String input = "123";
+//         try {
+//             MessageDigest digest = MessageDigest.getInstance("SHA-256");
+//             byte[] encodedHash = digest.digest(input.getBytes());
+//             StringBuffer hexString = new StringBuffer();
+//             for (int i = 0; i < encodedHash.length; i++) {
+//                 String hex = Integer.toHexString(0xff & encodedHash[i]);
+//                 if (hex.length() == 1) hexString.append('0');
+//                 hexString.append(hex);
+//             }
+//             System.out.println("SHA-256 hash of '123': " + hexString.toString());
+//         } catch (NoSuchAlgorithmException e) {
+//             e.printStackTrace();
+//         }
+         
+         
+//        alt_glassdoor();
+//        habr();
 
     //JMX
 //        try {
@@ -103,7 +161,75 @@ public class Debug {
             //jmxc.close();
         }
 
-    private static void alt_glassdoor() {
+    private static void crawl(String url, String websiteUrl) { // Pass the websiteUrl as a parameter
+        try {
+            Document document = Jsoup.connect(url).get();
+            Elements pageLinks = document.select("a[href]");
+
+            for (Element pageLink : pageLinks) {
+                String link = pageLink.attr("abs:href");
+                if (link.startsWith(websiteUrl) && !links.contains(link)) {
+                    links.add(link);
+                    System.out.println(link);
+                    crawl(link, websiteUrl); // Recursively crawl the discovered link
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private static void printLinks() {
+        System.out.println("\nTotal links found: " + links.size());
+    }
+
+    private static void adverstingSector() throws IOException {
+        String url = "https://kwork.ru";
+        String text = new HttpRequest().getWebText(url);
+        DataOperation dataOperation = new DataOperation();
+        dataOperation.writeDataToFile("123.txt", text);
+//        System.out.println(text);
+
+    }
+
+    private static HashSet extractHtmlLinks(String[] arrayAddresses) throws IOException {
+        HashSet<String> resultAddresses = new HashSet<>();
+
+        for (int i = 0; i < arrayAddresses.length; i++) {
+            String url = arrayAddresses[i];
+            System.out.println(arrayAddresses.length - i);
+            int counter = 0;
+            try {
+                Document doc = Jsoup.connect(url).get();
+                Elements links = doc.select("a[href]");
+
+                for (Element link : links) {
+                    String linkUrl = link.attr("abs:href");
+                    //System.out.println("text: " + link.text());
+//                    System.out.println(linkUrl);
+                    resultAddresses.add(linkUrl);
+                    counter++;
+                    System.out.println(links.size() - counter);
+                }
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return resultAddresses;
+    }
+
+    private static void habr() throws IOException {
+    	String url = "https://habr.com/ru/hubs/popular_science/articles/";
+        String text = new HttpRequest().getWebText(url);
+        DataOperation dataOperation = new DataOperation();
+        dataOperation.writeDataToFile("123.txt", text);
+//        System.out.println(text);
+		
+	}
+
+	private static void alt_glassdoor() {
         System.out.println("..uniq_case_1");
         String text = new CmdCurl().getWebText("https://us.jobsora.com/jobs/usa/q-attorney");
         System.out.println(text.length());

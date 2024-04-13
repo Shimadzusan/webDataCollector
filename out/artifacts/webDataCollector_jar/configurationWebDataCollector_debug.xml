@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <cases>
+    <case>
+      <fileConfig>headHunterJava.csv</fileConfig>
+      <thread>8</thread>
+      <mode>test</mode>
+    </case>
+	    <case>
+      <fileConfig>headHunter.csv</fileConfig>
+      <thread>8</thread>
+      <mode>test</mode>
+    </case>
+  </cases>
+  <dataBase>
+	  <login>admin</login>
+	  <password>pass</password>
+  </dataBase>
+  <runConfiguration>
+	  <logging>extended</logging>
+	  <performanceMonitoring>off</performanceMonitoring>
+  </runConfiguration>
+ </configuration>

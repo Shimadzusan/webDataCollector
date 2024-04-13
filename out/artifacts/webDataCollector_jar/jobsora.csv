@@ -1,0 +1,16 @@
+url;marker;regex;fileDestination;typeOfSourceExtractor;headers
+https://us.jobsora.com/jobs/q-java-developer;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://us.jobsora.com/jobs/q-driver;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://us.jobsora.com/jobs/q-accountant;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://us.jobsora.com/jobs/q-attorney;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://us.jobsora.com/jobs/q-sales-manager;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://us.jobsora.com/jobs/q-nurse;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://uk.jobsora.com/jobs-java-developer;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://uk.jobsora.com/jobs-driver;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://uk.jobsora.com/jobs-accountant;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://uk.jobsora.com/jobs-attorney;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://uk.jobsora.com/jobs-sales-manager;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://uk.jobsora.com/jobs-nurse;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://in.jobsora.com/jobs-java-developer;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://in.jobsora.com/jobs-python-developer;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0
+https://in.jobsora.com/jobs?query=C%2B%2B+Developer;jobs Found.* jobs Sort by;[0-9]+;resultJobsora.csv;uniq_case_1;0

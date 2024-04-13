@@ -3095,3 +3095,845 @@ INFO  | 2024-01-19 13:45:46 | [main] source.SourceWeb (SourceWeb.java:119) - cla
 INFO  | 2024-01-19 13:45:46 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
 INFO  | 2024-01-19 13:45:46 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 37780866 bytes
 INFO  | 2024-01-19 13:45:46 | [main] core.ControlModule (ControlModule.java:42) - action: 741 sec
+INFO  | 2024-01-24 20:06:45 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-01-24 20:06:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-24 20:06:45 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-24 20:06:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-24 20:06:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-01-24 20:06:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-24 20:06:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-24 20:06:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-24 20:06:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-01-24 20:06:46 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-24 20:12:19 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-24 20:12:19 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-01-24 20:12:19 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-24 20:13:00 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-24 20:13:32 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-24 20:13:32 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-24 20:13:32 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-24 20:14:25 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-24 20:14:25 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-01-24 20:14:25 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-24 20:15:47 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-24 20:16:41 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-24 20:16:41 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-24 20:16:41 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-01-24 20:16:41 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 37945269 bytes
+INFO  | 2024-01-24 20:16:41 | [main] core.ControlModule (ControlModule.java:42) - action: 595 sec
+INFO  | 2024-01-25 15:50:31 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-25 15:50:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-01-25 15:50:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-25 15:56:12 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-25 15:56:12 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-01-25 15:56:12 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-25 15:57:08 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-25 15:57:32 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-25 15:57:32 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-25 15:57:32 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-25 15:58:25 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-25 15:58:25 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-01-25 15:58:25 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-25 15:59:47 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-25 16:00:42 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-25 16:00:42 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-25 16:00:42 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-01-25 16:00:42 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 38086482 bytes
+INFO  | 2024-01-25 16:00:42 | [main] core.ControlModule (ControlModule.java:42) - action: 610 sec
+INFO  | 2024-01-26 17:21:58 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-26 17:21:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-01-26 17:21:58 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-26 17:27:30 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-26 17:27:30 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-01-26 17:27:30 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-26 17:28:22 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-26 17:28:44 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-26 17:28:44 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-26 17:28:44 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-26 17:29:38 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-26 17:29:38 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-01-26 17:29:38 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-26 17:31:00 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-26 17:31:55 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-26 17:31:55 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-26 17:31:55 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-01-26 17:31:55 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 37872535 bytes
+INFO  | 2024-01-26 17:31:55 | [main] core.ControlModule (ControlModule.java:42) - action: 596 sec
+INFO  | 2024-01-30 11:01:20 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-01-30 11:01:20 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-01-30 11:01:20 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-30 11:07:01 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-30 11:07:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-01-30 11:07:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-30 11:07:42 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-30 11:08:13 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-30 11:08:13 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-01-30 11:08:13 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-01-30 11:09:04 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-30 11:09:04 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-01-30 11:09:04 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-01-30 11:10:26 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-01-30 11:11:42 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-01-30 11:11:42 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-01-30 11:11:42 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-01-30 11:11:42 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 38113418 bytes
+INFO  | 2024-01-30 11:11:42 | [main] core.ControlModule (ControlModule.java:42) - action: 621 sec
+INFO  | 2024-02-01 19:27:57 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-02-01 19:27:57 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-02-01 19:27:57 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-01 19:32:13 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-02-01 19:32:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-02-01 19:32:13 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-01 19:37:43 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-01 19:37:43 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-02-01 19:37:43 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-01 19:38:38 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-01 19:39:01 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-01 19:39:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-02-01 19:39:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-01 19:39:51 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-01 19:39:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-02-01 19:39:51 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-01 19:41:14 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-01 19:42:10 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-01 19:42:10 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-01 19:42:10 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-02-01 19:42:10 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 38067311 bytes
+INFO  | 2024-02-01 19:42:10 | [main] core.ControlModule (ControlModule.java:42) - action: 596 sec
+INFO  | 2024-02-08 20:02:58 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-02-08 20:02:58 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-02-08 20:02:58 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-08 20:03:16 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-08 20:08:30 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-08 20:08:30 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-02-08 20:08:30 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-08 20:09:22 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-08 20:09:40 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-08 20:09:40 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-08 20:09:40 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-02-08 20:09:40 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-08 20:10:30 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-08 20:10:30 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-02-08 20:10:30 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-08 20:11:51 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-08 20:12:46 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-08 20:12:46 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-08 20:12:46 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-02-08 20:12:46 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 19654333 bytes
+INFO  | 2024-02-08 20:12:46 | [main] core.ControlModule (ControlModule.java:42) - action: 587 sec
+INFO  | 2024-02-13 09:56:48 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-02-13 09:56:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-02-13 09:56:48 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-13 09:59:18 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-13 10:02:31 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 10:02:31 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-02-13 10:02:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-13 10:03:34 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-13 10:03:42 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-13 10:03:42 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 10:03:42 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-02-13 10:03:42 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-13 10:04:33 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 10:04:33 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-02-13 10:04:33 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-13 10:05:56 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-13 10:06:50 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-13 10:06:50 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 10:06:50 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-02-13 10:06:50 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 19554186 bytes
+INFO  | 2024-02-13 10:06:50 | [main] core.ControlModule (ControlModule.java:42) - action: 601 sec
+INFO  | 2024-02-13 14:02:34 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-02-13 14:02:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-02-13 14:02:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-13 14:08:16 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 14:08:16 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-02-13 14:08:16 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-13 14:09:20 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-13 14:09:28 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-13 14:09:28 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 14:09:28 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-02-13 14:09:28 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-02-13 14:10:21 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 14:10:21 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-02-13 14:10:21 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-02-13 14:11:43 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-02-13 14:12:38 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-02-13 14:12:38 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-02-13 14:12:38 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-02-13 14:12:38 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 19574215 bytes
+INFO  | 2024-02-13 14:12:38 | [main] core.ControlModule (ControlModule.java:42) - action: 603 sec
+INFO  | 2024-03-02 08:04:12 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-02 08:04:13 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-03-02 08:04:13 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-02 08:09:41 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-02 08:09:41 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-02 08:09:41 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-02 08:10:35 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-02 08:10:43 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-02 08:10:51 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-02 08:10:51 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-02 08:10:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-02 08:10:51 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-02 08:11:44 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-02 08:11:44 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-02 08:11:44 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-02 08:13:06 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-02 08:14:01 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-02 08:14:01 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-02 08:14:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-02 08:14:01 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 19859234 bytes
+INFO  | 2024-03-02 08:14:01 | [main] core.ControlModule (ControlModule.java:42) - action: 587 sec
+INFO  | 2024-03-06 20:36:23 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-06 20:36:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-03-06 20:36:24 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-06 20:41:51 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-06 20:41:51 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-06 20:41:51 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-06 20:42:43 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-06 20:42:52 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-06 20:43:00 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-06 20:43:00 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-06 20:43:00 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-06 20:43:00 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-06 20:43:50 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-06 20:43:50 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-06 20:43:50 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-06 20:45:12 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-06 20:46:06 | [main] source.SourceWeb (SourceWeb.java:116) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-06 20:46:06 | [main] source.SourceWeb (SourceWeb.java:119) - classLogic successfully completed
+INFO  | 2024-03-06 20:46:06 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-06 20:46:06 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 19719152 bytes
+INFO  | 2024-03-06 20:46:06 | [main] core.ControlModule (ControlModule.java:42) - action: 582 sec
+INFO  | 2024-03-17 08:23:48 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:23:49 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 08:23:49 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+ERROR | 2024-03-17 08:23:49 | [main] destination.DestinationFile (DestinationFile.java:40) - java.io.FileNotFoundException: resultAdverstingSector.csv (Не удается найти указанный файл)
+INFO  | 2024-03-17 08:23:49 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultAdverstingSector.csv sent
+INFO  | 2024-03-17 08:23:49 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-03-17 08:23:49 | [main] core.ControlModule (ControlModule.java:42) - action: 0 sec
+INFO  | 2024-03-17 08:26:01 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 08:26:01 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:26:01 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultAdverstingSector.csv sent
+INFO  | 2024-03-17 08:26:01 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-03-17 08:26:01 | [main] core.ControlModule (ControlModule.java:42) - action: 0 sec
+INFO  | 2024-03-17 08:30:34 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-17 08:30:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 08:30:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-17 08:30:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 08:30:34 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-03-17 08:30:34 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 08:30:34 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-17 08:30:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 08:30:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:30:35 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:30:35 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:30:35 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:30:35 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-17 08:30:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 08:34:03 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 08:34:03 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultAdverstingSector.csv sent
+INFO  | 2024-03-17 08:34:03 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-03-17 08:34:03 | [main] core.ControlModule (ControlModule.java:42) - action: 208 sec
+INFO  | 2024-03-17 09:22:30 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-17 09:22:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 09:22:30 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-03-17 09:22:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 09:22:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 09:22:31 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-17 09:22:31 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 09:24:20 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 09:24:20 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultAdverstingSector.csv sent
+INFO  | 2024-03-17 09:24:20 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-03-17 09:24:20 | [main] core.ControlModule (ControlModule.java:42) - action: 108 sec
+INFO  | 2024-04-03 15:25:59 | [main] core.Launch (Launch.java:17) - start version 2.2
+INFO  | 2024-04-03 15:26:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-03 15:26:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-03 15:26:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-03 15:26:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-03 15:26:00 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-04-03 15:26:00 | [main] core.ControlModule (ControlModule.java:42) - action: 0 sec
+INFO  | 2024-04-03 15:27:21 | [main] core.Launch (Launch.java:17) - start version 2.2
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-03 15:27:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-03 15:27:22 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-04-03 15:27:55 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-04-03 15:28:02 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-04-03 15:28:08 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-04-03 15:28:14 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-03 15:28:14 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-04-03 15:28:14 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-04-03 15:28:14 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-04-03 15:28:14 | [main] core.ControlModule (ControlModule.java:42) - action: 52 sec
+INFO  | 2024-04-04 12:53:23 | [main] core.Launch (Launch.java:17) - start version 2.5
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-04 12:53:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-04 12:53:24 | [main] source.SourceWeb (SourceWeb.java:62) - start classLogic
+INFO  | 2024-04-04 12:53:27 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:53:27 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 84062
+INFO  | 2024-04-04 12:53:38 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:53:38 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 80595
+INFO  | 2024-04-04 12:53:47 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:53:47 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 76494
+INFO  | 2024-04-04 12:53:57 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:53:57 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 79567
+INFO  | 2024-04-04 12:54:07 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:54:07 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 72070
+INFO  | 2024-04-04 12:54:13 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:54:13 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-04 12:54:19 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-04 12:54:19 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 12:54:19 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-04 12:54:25 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-04 12:54:25 | [main] source.SourceWeb (SourceWeb.java:129) - classLogic successfully completed
+INFO  | 2024-04-04 12:54:25 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-04-04 12:54:25 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-04-04 12:54:25 | [main] core.ControlModule (ControlModule.java:42) - action: 61 sec
+INFO  | 2024-04-04 13:01:48 | [main] core.Launch (Launch.java:17) - start version 2.5
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-04 13:01:48 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-04 13:01:48 | [main] source.SourceWeb (SourceWeb.java:62) - start classLogic
+INFO  | 2024-04-04 13:01:49 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 13:01:49 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-04 13:01:55 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-04 13:01:55 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-04 13:01:55 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 13:01:55 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-04 13:02:01 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-04 13:02:01 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-04 13:02:01 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 13:02:01 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-04 13:02:07 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-04 13:02:07 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-04 13:02:07 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 13:02:07 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-04 13:02:13 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-04 13:02:13 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-04 13:02:14 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-04 13:02:14 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+INFO  | 2024-04-13 08:03:36 | [main] core.Launch (Launch.java:26) - start version 2.5
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:03:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:08:54 | [main] core.Launch (Launch.java:26) - start version 2.5
+INFO  | 2024-04-13 08:08:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:08:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:08:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:08:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:08:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:08:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:08:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:08:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:11:02 | [main] core.Launch (Launch.java:26) - start version 2.5
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:11:03 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:13:09 | [main] core.Launch (Launch.java:26) - start version 2.5
+INFO  | 2024-04-13 08:13:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:13:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:13:09 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:13:10 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:13:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:13:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:13:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:13:10 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:18:18 | [main] core.Launch (Launch.java:24) - start version 2.5
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:18:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:18:46 | [main] core.Launch (Launch.java:24) - start version 2.5
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:18:46 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:19:24 | [main] core.Launch (Launch.java:24) - start version 2.5
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:19:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:26:38 | [main] core.Launch (Launch.java:21) - start version 2.5
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 1
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:26:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 1
+INFO  | 2024-04-13 08:26:39 | [main] source.SourceWeb (SourceWeb.java:62) - start classLogic
+INFO  | 2024-04-13 08:26:43 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:26:44 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 91097
+INFO  | 2024-04-13 08:26:53 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/sankt-peterburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:26:53 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 96470
+INFO  | 2024-04-13 08:27:02 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/novosibirsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:27:02 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 70986
+INFO  | 2024-04-13 08:27:08 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/ekaterinburg/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:27:08 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-13 08:27:14 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-13 08:27:14 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-13 08:27:15 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/kazan/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:27:15 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-13 08:27:21 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-13 08:27:21 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-13 08:27:21 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/volgograd/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:27:21 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-13 08:27:27 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-13 08:27:27 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-13 08:27:27 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/habarovsk/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-13 08:27:27 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 870
+ERROR | 2024-04-13 08:27:33 | [main] source.SourceWeb (SourceWeb.java:126) - java.lang.IllegalStateException: No match found
+INFO  | 2024-04-13 08:27:33 | [main] source.SourceWeb (SourceWeb.java:126) - text: Доступ ограничен: проблема с IP Иногда такое случается — чтобы вернуться на сайт, поставьте галочку и нажмите «Отправить». Иногда такое случается — чтобы вернуться на сайт, введите символы с картинки. Иногда такое случается - чтобы вернуться на сайт нажмите на кнопку ниже Отправить Что можно сделать, если проблема повторяется — Отключить VPN. — Перезагрузить роутер. — Запустить проверку антивирусом. Не сработает — напишите поддержке. Обязательно укажите свой город, провайдера и IP. Что не так с IP С него идёт очень много запросов — как если бы вы разом открывали десятки вкладок или слишком часто обновляли страницу. Обычно такое бывает, когда одним IP пользуются несколько человек. Например, если ваш провайдер объединяет абонентов в подсети, вы открываете сайт с рабочего компьютера или пользуетесь VPN. Также причина может быть в расширениях браузера и вирусах.
+INFO  | 2024-04-13 08:27:33 | [main] source.SourceWeb (SourceWeb.java:129) - classLogic successfully completed
+INFO  | 2024-04-13 08:27:33 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-04-13 08:27:33 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
+INFO  | 2024-04-13 08:27:33 | [main] core.ControlModule (ControlModule.java:42) - action: 53 sec

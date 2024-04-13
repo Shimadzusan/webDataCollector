@@ -12,8 +12,8 @@ public class HttpRequestDecorator {
 	
 	public String getWebText(String url) {
 		webText = new HttpRequest().getWebText(url);
-//		LOG.info(url);
-//		LOG.info("size: " + getTrafficLength(webText));
+		LOG.info("url: " + url);
+		LOG.info("traffic size: " + getTrafficLength(webText));
 		Singleton.totalTraffic = Singleton.totalTraffic + getTrafficLength(webText);  
 		return webText;
 	}

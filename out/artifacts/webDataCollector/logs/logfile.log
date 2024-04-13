@@ -1,0 +1,54 @@
+INFO  | 2024-03-17 16:25:52 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-17 16:25:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+WARN  | 2024-03-17 16:25:52 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationBetta' defined in core.SpringConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [configuration.ConfigurationBetta]: Factory method 'configurationBetta' threw exception; nested exception is java.io.FileNotFoundException: configurationWebDataCollector.xml (Не удается найти указанный файл)
+INFO  | 2024-03-17 16:26:35 | [main] core.Launch (Launch.java:15) - start version 2.2
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-03-17 16:26:35 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-03-17 16:26:35 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 16:30:41 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 16:30:41 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultItSector.csv sent
+INFO  | 2024-03-17 16:30:41 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 16:31:25 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 16:31:31 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 16:31:38 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 16:31:38 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 16:31:38 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
+INFO  | 2024-03-17 16:31:38 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 16:32:25 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 16:32:25 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJustJoinItCentralEurope.csv sent
+INFO  | 2024-03-17 16:32:25 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+ERROR | 2024-03-17 16:33:38 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+ERROR | 2024-03-17 16:34:27 | [main] source.SourceWeb (SourceWeb.java:125) - java.lang.IllegalStateException: No match found
+INFO  | 2024-03-17 16:34:27 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 16:34:27 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultJobsora.csv sent
+INFO  | 2024-03-17 16:34:27 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-03-17 16:36:00 | [main] source.SourceWeb (SourceWeb.java:128) - classLogic successfully completed
+INFO  | 2024-03-17 16:36:00 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultAdverstingSector.csv sent
+INFO  | 2024-03-17 16:36:00 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 19937007 bytes
+INFO  | 2024-03-17 16:36:00 | [main] core.ControlModule (ControlModule.java:42) - action: 564 sec
+INFO  | 2024-04-13 08:38:11 | [main] core.Launch (Launch.java:21) - start version 2.5
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - reading configuration successfully completed
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:93) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 4
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-13 08:38:11 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 4
+INFO  | 2024-04-13 08:38:11 | [main] source.SourceWeb (SourceWeb.java:62) - start classLogic
+INFO  | 2024-04-13 08:38:13 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - url: https://hh.ru/search/vacancy?text=Java&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2024-04-13 08:38:13 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - traffic size: 617766
+INFO  | 2024-04-13 08:38:19 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - url: https://hh.ru/search/vacancy?text=C%2B%2B&only_with_salary=false&specialization=1.221&area=1&enable_snippets=true&clusters=true&no_magic=true&salary=&from=suggest_post
+INFO  | 2024-04-13 08:38:19 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - traffic size: 629885
+INFO  | 2024-04-13 08:38:24 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - url: https://hh.ru/search/vacancy?text=C%23&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2024-04-13 08:38:24 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - traffic size: 621430
+INFO  | 2024-04-13 08:38:31 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - url: https://hh.ru/search/vacancy?text=Swift&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2024-04-13 08:38:31 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - traffic size: 565566
+INFO  | 2024-04-13 08:38:37 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:15) - url: https://hh.ru/search/vacancy?text=Python&only_with_salary=false&clusters=true&area=1&specialization=1.221&no_magic=true&enable_snippets=true&salary=&from=suggest_post
+INFO  | 2024-04-13 08:38:37 | [main] network.HttpRequestDecorator (HttpRequestDecorator.java:16) - traffic size: 629766

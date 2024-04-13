@@ -9,6 +9,7 @@ import io.prometheus.client.Counter;
 import io.prometheus.client.exporter.HTTPServer;
 //import io.prometheus.client.spring.boot.EnablePrometheusEndpoint;
 //import io.prometheus.client.spring.boot.EnableSpringBootMetricsCollector;
+import network.CmdCurl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
@@ -70,22 +71,31 @@ public class SourceWeb implements Source {
 				case "java_net":
 					System.out.println("java_net");
 					text = new HttpRequestDecorator().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
-					Thread.sleep(7000);
+					Thread.sleep(5000);
 					break;
 
 				case "cmd_curl":
 					System.out.println("cmd_curl");
 					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 					System.out.println(text.length());
-					Thread.sleep(8000);
+					Thread.sleep(6000);
 					break;
 
 				case "uniq_case_1":
 					System.out.println("..uniq_case_1");
 					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 					System.out.println(text.length());
-					System.out.println(text);
-					Thread.sleep(8500);
+//					System.out.println(text);
+					Thread.sleep(7500);
+					break;
+
+				case "uniq_case_2":
+					System.out.println("..uniq_case_2 adversting sector");
+					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
+					System.out.println(text.length());
+//					System.out.println(text);
+					text = text.length() + "";
+					Thread.sleep(3500);
 					break;
 			}
 
@@ -113,8 +123,8 @@ public class SourceWeb implements Source {
 		        configurationObject.getListCase().get(number).getListInstanceData().get(i).setValue(result);
 		        //configurationObject.getConfiguration().get(i).setValue(matcherTwo.group()); delete in next commit
 			}
-			catch(java.lang.IllegalStateException e) {LOG.error(e);}
-			catch(java.lang.NullPointerException e) {LOG.error(e);}
+			catch(java.lang.IllegalStateException e) {LOG.error(e);LOG.info("text: " + text);}
+			catch(java.lang.NullPointerException e) {LOG.error(e);LOG.info("text: " + text);}
 		}
         LOG.info("classLogic successfully completed");
 	}

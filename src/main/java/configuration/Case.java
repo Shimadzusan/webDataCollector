@@ -20,15 +20,9 @@ public class Case {
 	public synchronized void setListInstanceData(List<InstanceData> listInstanceData) {
 		this.listInstanceData = listInstanceData;
 	}
-	public synchronized String getFileConfig() {
-		return fileConfig;
-	}
-	public synchronized void setFileConfig(String fileConfig) {
-		this.fileConfig = fileConfig;
-	}
-	public synchronized int getThread() {
-		return thread;
-	}
+	public synchronized String getFileConfig() {return fileConfig;}
+	public synchronized void setFileConfig(String fileConfig) {this.fileConfig = fileConfig;}
+	public synchronized int getThread() {return thread;}
 	public synchronized void setThread(int thread) {
 		this.thread = thread;
 	}
