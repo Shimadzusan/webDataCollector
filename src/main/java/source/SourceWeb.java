@@ -19,7 +19,7 @@ import configuration.Configuration;
 import configuration.ConfigurationObject;
 import network.HttpRequestDecorator;
 
-/** input: URL, marker, regex 
+/** input: URL, marker, regex, all necessary data that contains configurationObject
  * 	output: value from webpage for storage in database 
  * 	This class implements one from many possibility extracting data from webpage */
 //@EnableSpringBootMetricsCollector
@@ -31,7 +31,6 @@ public class SourceWeb implements Source {
 	int number;//..number of row in configuration, maybe
 	int exampleVar = 1;
 
-	
 	public SourceWeb(Configuration configuration) throws IOException {
 		this.configurationObject = configuration.getConfiguration();
 	}
@@ -90,7 +89,7 @@ public class SourceWeb implements Source {
 					break;
 
 				case "uniq_case_2":
-					System.out.println("..uniq_case_2 adversting sector");
+					System.out.println("..uniq_case_2 advertising sector");
 					text = new CmdCurl().getWebText(configurationObject.getListCase().get(number).getListInstanceData().get(i).getUrl());
 					System.out.println(text.length());
 //					System.out.println(text);

@@ -5,6 +5,8 @@ import java.io.IOException;
 
 //import io.prometheus.client.spring.boot.EnablePrometheusEndpoint;
 //import io.prometheus.client.spring.boot.EnableSpringBootMetricsCollector;
+import destination.Destination;
+import destination.DestinationDataBase;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,16 +17,16 @@ import configuration.ConfigurationBetta;
 import configuration.ConfigurationDelta;
 import destination.DestinationAlpha;
 import destination.DestinationFile;
+import source.Source;
 import source.SourceAlpha;
 import source.SourceWeb;
 import org.springframework.context.annotation.ComponentScan;
+import source.SourceWebCrawler;
 
 @Configuration
 @ComponentScan({"core", "source", "destination"})
 @PropertySource("classpath:configuration.properties")
-//@PropertySource("application.properties")
 public class SpringConfiguration {
-//	String configurationFile = "configurationWebDataCollector.xml";
 	
 	@Value("${configuration.name}")
     private String configurationFile;
@@ -33,8 +35,8 @@ public class SpringConfiguration {
 	public int mainTimeInterval;
 	
 	@Bean
-	public ConfigurationAlpha configurationAlpha() {
-		return new ConfigurationAlpha();}
+	public ConfigurationAlpha configurationAlpha() throws IOException {
+		return new ConfigurationAlpha(configurationFile);}
 	
 	@Bean
 	public ConfigurationBetta configurationBetta() throws FileNotFoundException, IOException {
@@ -47,9 +49,7 @@ public class SpringConfiguration {
 	}
 	
 	@Bean
-	public SourceAlpha sourceAlpha() {
-		return new SourceAlpha();
-	}
+	public SourceAlpha sourceAlpha() {return new SourceAlpha();}
 
 	@Bean
 	public SourceWeb sourceWeb() throws FileNotFoundException, IOException {
@@ -59,9 +59,15 @@ public class SpringConfiguration {
 		}
 		return sourceWeb;
 	}
-	
+
+	@Bean
+	public SourceWebCrawler sourceWebCrawler() throws FileNotFoundException, IOException {return new SourceWebCrawler(configurationAlpha());}
+
 	@Bean
 	public DestinationAlpha destinationAlpha() {return new DestinationAlpha();}
+
+	@Bean
+	public DestinationDataBase destinationDataBase() {return new DestinationDataBase();}
 	
 	@Bean
 	public DestinationFile destinationFile() throws FileNotFoundException, IOException {
@@ -73,5 +79,12 @@ public class SpringConfiguration {
 		/* dependency injection instead @Autowired */
 		return new ControlModule(configurationBetta(), sourceWeb(), destinationFile());
 	}
+
+	@Bean (name = "controlModuleAlt")
+	public ControlModule controlModuleAtl() throws FileNotFoundException, IOException {
+		/* dependency injection instead @Autowired */
+		return new ControlModule(configurationAlpha(), sourceWebCrawler(), destinationDataBase());
+	}
+
 
 }

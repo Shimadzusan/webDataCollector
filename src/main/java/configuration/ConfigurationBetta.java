@@ -76,14 +76,10 @@ public class ConfigurationBetta implements Configuration  {
 	}
 
 	@Override
-	public ConfigurationObject getConfiguration() {
-		return this.configurationObject;
-	}
+	public ConfigurationObject getConfiguration() {return this.configurationObject;}
 
 	@Override
-	public String readConfiguration() {
-		return null;
-	}
+	public String readConfiguration() {return null;}
 		
 	private void readConfigurationFile() {
 			

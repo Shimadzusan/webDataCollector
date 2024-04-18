@@ -4,7 +4,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 
 
-/** implementation decorator pattern */
+/** implementation decorator pattern,
+ *  for origin class HttpRequest, added displays next parameters: url and traffic size */
 public class HttpRequestDecorator {
 	private final Logger LOG = (Logger) LogManager.getLogger(HttpRequestDecorator.class);
 	String webText = "";

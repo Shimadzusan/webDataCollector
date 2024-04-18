@@ -1,11 +1,15 @@
 package core;
 
 public class InstanceData {
-	String url,marker,regex,tableData,value,columnName,fileDestination,typeOfSourceExtractor,headers;
+	String url,marker,regex,tableData,value,columnName,fileDestination,typeOfSourceExtractor,headers,algorithm;
 
 	public String getTypeOfSourceExtractor() {return typeOfSourceExtractor;}
 
 	public void setTypeOfSourceExtractor(String typeOfSourceExtractor) {this.typeOfSourceExtractor = typeOfSourceExtractor;}
+
+	public String getAlgorithm() {return algorithm;}
+
+	public void setAlgorithm(String algorithm) {this.algorithm = algorithm;}
 
 	public String getHeaders() {return headers;}
 

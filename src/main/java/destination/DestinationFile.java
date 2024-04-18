@@ -15,14 +15,10 @@ public class DestinationFile implements Destination {
 	String data = "";
 	DataOperation dataOperation = new DataOperation();
 	
-	public DestinationFile(Configuration configuration) {
-		this.configurationObject = configuration.getConfiguration();
-	}
+	public DestinationFile(Configuration configuration) {this.configurationObject = configuration.getConfiguration();}
 
 	@Override
-	public String getDestination() {
-		return "getDestination";
-	}
+	public String getDestination() {return "getDestination";}
 
 	@Override
 	public boolean sendData(int number) {

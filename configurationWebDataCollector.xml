@@ -4,13 +4,13 @@
 		<case>
             <fileConfig>avito.csv</fileConfig>
             <thread>4</thread>
-            <mode>standard</mode>
+            <mode>standard_parser</mode>
 			<typeOfSourceExtractor>cmd_curl</typeOfSourceExtractor>
         </case>
-        <!--<case>
+        <case>
             <fileConfig>headHunter.csv</fileConfig>
             <thread>8</thread>
-            <mode>test_test</mode>
+            <mode>standard_purser</mode>
 			<typeOfSourceExtractor>java_net</typeOfSourceExtractor>
         </case>
 		<case>
@@ -22,13 +22,13 @@
 		<case>
             <fileConfig>jobsora.csv</fileConfig>
             <thread>4</thread>
-            <mode>standard</mode>
+            <mode>basic_parser</mode>
 			<typeOfSourceExtractor>uniq_case_2</typeOfSourceExtractor>
         </case>
 		<case>
-            <fileConfig>adverstingSector.csv</fileConfig>
+            <fileConfig>advertisingSector.csv</fileConfig>
             <thread>4</thread>
-            <mode>standard</mode>
+            <mode>advanced_crawler</mode>
 			<typeOfSourceExtractor>uniq_case_3</typeOfSourceExtractor>
         </case>-->
         <!--<case>

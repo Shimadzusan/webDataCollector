@@ -3937,3 +3937,423 @@ INFO  | 2024-04-13 08:27:33 | [main] source.SourceWeb (SourceWeb.java:129) - cla
 INFO  | 2024-04-13 08:27:33 | [main] destination.DestinationFile (DestinationFile.java:42) - data to resultRealtySector.csv sent
 INFO  | 2024-04-13 08:27:33 | [main] core.ControlModule (ControlModule.java:41) - total traffic: 0 bytes
 INFO  | 2024-04-13 08:27:33 | [main] core.ControlModule (ControlModule.java:42) - action: 53 sec
+INFO  | 2024-04-15 08:40:28 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 08:40:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:40:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+WARN  | 2024-04-15 08:40:29 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationBetta' defined in core.SpringConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [configuration.ConfigurationBetta]: Factory method 'configurationBetta' threw exception; nested exception is java.io.FileNotFoundException: advertisingSector.csv (Не удается найти указанный файл)
+INFO  | 2024-04-15 08:42:24 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 08:42:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:42:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+WARN  | 2024-04-15 08:42:24 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationBetta' defined in core.SpringConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [configuration.ConfigurationBetta]: Factory method 'configurationBetta' threw exception; nested exception is java.io.FileNotFoundException: advertisingSector.csv (Не удается найти указанный файл)
+INFO  | 2024-04-15 08:53:28 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 08:53:28 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:53:28 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 08:53:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 08:53:29 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 08:53:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:53:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 08:53:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 08:53:29 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+WARN  | 2024-04-15 08:53:29 | [main] support.AbstractApplicationContext (AbstractApplicationContext.java:557) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'controlModuleAtl' defined in core.SpringConfiguration: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [core.ControlModule]: Factory method 'controlModuleAtl' threw exception; nested exception is java.lang.ClassCastException: class destination.DestinationDataBase cannot be cast to class destination.Destination (destination.DestinationDataBase and destination.Destination are in unnamed module of loader 'app')
+INFO  | 2024-04-15 08:56:51 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 08:56:51 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 08:59:21 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 08:59:21 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:59:21 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 08:59:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 08:59:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 08:59:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 08:59:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 08:59:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 08:59:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 09:02:13 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:02:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 09:03:21 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 09:03:21 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:03:21 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 09:03:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:03:22 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 09:03:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:03:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 09:03:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:03:22 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 09:05:38 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:05:39 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 09:05:39 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-04-15 09:05:42 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-15 09:05:42 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 89419
+INFO  | 2024-04-15 09:07:18 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 09:07:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 09:07:19 | [main] source.SourceWeb (SourceWeb.java:61) - start classLogic
+INFO  | 2024-04-15 09:07:22 | [main] network.CmdCurl (CmdCurl.java:41) - url: https://www.avito.ru/moskva/kvartiry/prodam-ASgBAgICAUSSA8YQ?localPriority=0
+INFO  | 2024-04-15 09:07:22 | [main] network.CmdCurl (CmdCurl.java:42) - traffic size: 90714
+INFO  | 2024-04-15 12:25:25 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:25:26 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 12:25:26 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 12:25:26 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 12:26:41 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:26:42 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 12:26:42 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 12:26:42 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 12:28:22 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:28:23 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 12:28:23 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 12:28:23 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 12:30:32 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 12:30:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 13:21:33 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 13:21:33 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 13:22:51 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 13:22:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 13:22:52 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 13:22:52 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 16:38:18 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:38:19 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 16:38:19 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 16:38:19 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 16:39:11 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 16:39:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:39:11 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 16:39:12 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:39:12 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 16:39:12 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:39:12 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 16:39:12 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:39:12 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 16:39:12 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 16:39:12 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 16:41:54 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:41:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 16:41:55 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 16:41:55 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 16:52:07 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:52:08 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 16:52:08 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 16:52:08 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-15 16:52:24 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-15 16:52:24 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-15 16:52:24 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-15 16:52:24 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 17:05:55 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:05:56 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:26:31 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:26:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:26:31 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:26:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:26:32 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:26:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:26:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:26:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:26:32 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:26:32 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:26:32 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 17:28:49 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:28:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:28:49 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:28:50 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:28:50 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:28:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:28:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:28:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:28:50 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:28:50 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:28:50 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 17:29:25 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:29:25 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:29:54 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:29:54 | [main] core.ControlModule (ControlModule.java:41) - action: 28 sec
+INFO  | 2024-04-17 17:29:59 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:29:59 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:29:59 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:30:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:30:00 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:30:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:30:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:30:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:30:00 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:30:53 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:31:07 | [main] core.ControlModule (ControlModule.java:41) - action: 37 sec
+INFO  | 2024-04-17 17:31:52 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:31:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:36:58 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:36:58 | [main] core.ControlModule (ControlModule.java:41) - action: 305 sec
+INFO  | 2024-04-17 17:37:03 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:37:04 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:37:58 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:38:00 | [main] core.ControlModule (ControlModule.java:41) - action: 42 sec
+INFO  | 2024-04-17 17:40:58 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:40:59 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:40:59 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:40:59 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 17:44:17 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:44:17 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:44:17 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:44:18 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:46:28 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:46:28 | [main] core.ControlModule (ControlModule.java:41) - action: 130 sec
+INFO  | 2024-04-17 17:48:00 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:48:00 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:48:00 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:48:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 17:49:28 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 17:49:28 | [main] core.ControlModule (ControlModule.java:41) - action: 85 sec
+INFO  | 2024-04-17 17:56:01 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 17:56:01 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:00:35 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:00:35 | [main] core.ControlModule (ControlModule.java:41) - action: 273 sec
+INFO  | 2024-04-17 18:02:54 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:02:55 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:05:56 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:05:56 | [main] core.ControlModule (ControlModule.java:41) - action: 181 sec
+INFO  | 2024-04-17 18:06:51 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:06:52 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:06:52 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:06:52 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 18:25:13 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:25:14 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:25:39 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:25:39 | [main] core.ControlModule (ControlModule.java:41) - action: 25 sec
+INFO  | 2024-04-17 18:28:53 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 18:28:53 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:28:53 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:28:54 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:28:54 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:28:54 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 18:29:37 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:29:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 18:29:38 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:29:38 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:29:38 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:29:38 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec
+INFO  | 2024-04-17 18:40:36 | [main] core.Launch (Launch.java:16) - start version 2.5
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationAlpha (ConfigurationAlpha.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - reading configuration successfully completed
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:89) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationBetta (ConfigurationBetta.java:73) - amount cases: 5
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:34) - start reading configuration, file: configurationWebDataCollector.xml
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:36) - reading configuration successfully completed
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:73) - initialization configurationObject successfully completed
+INFO  | 2024-04-17 18:40:37 | [main] configuration.ConfigurationDelta (ConfigurationDelta.java:74) - amount cases: 5
+INFO  | 2024-04-17 18:40:37 | [main] core.ControlModule (ControlModule.java:40) - total traffic: 0 bytes
+INFO  | 2024-04-17 18:40:37 | [main] core.ControlModule (ControlModule.java:41) - action: 0 sec

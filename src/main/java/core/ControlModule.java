@@ -12,14 +12,13 @@ import org.springframework.stereotype.Component;
 import source.Source;
 
 import java.io.IOException;
+
 public class ControlModule {
 	Configuration config;
 	Source source;
 	Destination destination;
 	private final Logger LOG = (Logger) LogManager.getLogger(ControlModule.class);
 
-
-	
 	public ControlModule() throws IOException {}
 	
 	public ControlModule(Configuration config, Source source, Destination destination) throws IOException {
@@ -42,28 +41,16 @@ public class ControlModule {
 		LOG.info("action: " + t2 + " sec");
 	}
 	
-	public synchronized Configuration getConfig() {
-		return config;
-	}
+	public synchronized Configuration getConfig() {return config;}
 
-	public synchronized void setConfig(Configuration config) {
-		this.config = config;
-	}
+	public synchronized void setConfig(Configuration config) {this.config = config;}
 
-	public synchronized Source getSource() {
-		return source;
-	}
+	public synchronized Source getSource() {return source;}
 
-	public synchronized void setSource(Source source) {
-		this.source = source;
-	}
+	public synchronized void setSource(Source source) {this.source = source;}
 
-	public synchronized Destination getDestination() {
-		return destination;
-	}
+	public synchronized Destination getDestination() {return destination;}
 
-	public synchronized void setDestination(Destination destination) {
-		this.destination = destination;
-	}
+	public synchronized void setDestination(Destination destination) {this.destination = destination;}
 
 }

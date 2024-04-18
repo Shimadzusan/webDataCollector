@@ -39,21 +39,16 @@ public class Debug {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 
-        String websiteUrl = "http://must-have.group/"; // Replace with the actual website URL you want to start crawling from
-        crawl(websiteUrl, websiteUrl);
-        printLinks();
+//        String websiteUrl = "http://must-have.group/"; // Replace with the actual website URL you want to start crawling from
+//        String websiteUrl = "http://philosophy.by/";
+//        crawl(websiteUrl, websiteUrl);
+//        printLinks();
 
-//        String[] arrayAddresses = {"http://must-have.group/+"};
-//        HashSet<String> hset2level = extractHtmlLinks(arrayAddresses);
-//
-//        System.out.println("+++");
-//        System.out.println(hset2level.size());
-//        for (String state : hset2level) {
-//            System.out.println("level_2: " + state);
-//        }
+        //advertisingSector();
+
 //        arrayAddresses = hset2level.toArray(new String[hset2level.size()]);
 //        HashSet<String> hset3level = extractHtmlLinks(arrayAddresses);
-//
+
 //        for (String state : hset3level) {
 //            System.out.println("level_3: " + state);
 //        }
@@ -67,27 +62,27 @@ public class Debug {
 //
 //        }
 
-        String inputDateStr = "20230422";
-
-        try {
-            // Parse the input date string
-            SimpleDateFormat inputDateFormat = new SimpleDateFormat("yyyyMMdd");
-            Date inputDate = inputDateFormat.parse(inputDateStr);
-
-            // Format the date to the desired output format
-            SimpleDateFormat outputDateFormat = new SimpleDateFormat("dd.MM.yyyy");
-            String outputDateStr = outputDateFormat.format(inputDate);
-
-            System.out.println("Input date: " + inputDateStr);
-            System.out.println("Output date: " + outputDateStr);
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-
-        Random rn = new Random();
-        for (int i = 0; i < 20; i++) {
-            System.out.println(rn.nextInt(50));
-        }
+//        String inputDateStr = "20230422";
+//
+//        try {
+//            // Parse the input date string
+//            SimpleDateFormat inputDateFormat = new SimpleDateFormat("yyyyMMdd");
+//            Date inputDate = inputDateFormat.parse(inputDateStr);
+//
+//            // Format the date to the desired output format
+//            SimpleDateFormat outputDateFormat = new SimpleDateFormat("dd.MM.yyyy");
+//            String outputDateStr = outputDateFormat.format(inputDate);
+//
+//            System.out.println("Input date: " + inputDateStr);
+//            System.out.println("Output date: " + outputDateStr);
+//        } catch (ParseException e) {
+//            e.printStackTrace();
+//        }
+//
+//        Random rn = new Random();
+//        for (int i = 0; i < 20; i++) {
+//            System.out.println(rn.nextInt(50));
+//        }
     	
 //    	 String input = "123";
 //         try {
@@ -159,7 +154,26 @@ public class Debug {
 
 
             //jmxc.close();
+//        String[] arrayAddresses = {"http://philosophy.by/ru/"};
+//        HashSet<String> hset2level = extractHtmlLinks(arrayAddresses);
+//
+//        System.out.println("+++");
+//        System.out.println(hset2level.size());
+//        for (String state : hset2level) {
+//            System.out.println("level_2: " + state);
+//        }
+        crawl_s("http://philosophy.by/ru/");
         }
+    private static void crawl_s(String address) {
+//        Crawler crawler = new Crawler();
+//        HashSet<String> hset2level = crawler.method_1(address);
+//
+//        System.out.println("+++");
+//        System.out.println(hset2level.size());
+//        for (String state : hset2level) {
+//            System.out.println("level_2: " + state);
+//        }
+    }
 
     private static void crawl(String url, String websiteUrl) { // Pass the websiteUrl as a parameter
         try {
@@ -183,12 +197,12 @@ public class Debug {
         System.out.println("\nTotal links found: " + links.size());
     }
 
-    private static void adverstingSector() throws IOException {
-        String url = "https://kwork.ru";
+    private static void advertisingSector() throws IOException {
+        String url = "https://ingate.ru/uslugi/tematiki/prodvijenie-avtosalona";
         String text = new HttpRequest().getWebText(url);
         DataOperation dataOperation = new DataOperation();
-        dataOperation.writeDataToFile("123.txt", text);
-//        System.out.println(text);
+//        dataOperation.writeDataToFile("123.txt", text);
+        System.out.println(text);
 
     }
 
