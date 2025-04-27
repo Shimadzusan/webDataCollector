@@ -28,9 +28,11 @@ public class ControlModule {
 	}
 	
 	public void action() throws IOException {
+		System.out.println("action+");
 		long t = System.currentTimeMillis();	//..for time monitoring
 		ConfigurationObject configurationObject = this.config.getConfiguration();
 		//SimpleWDC simple = new SimpleWDC();
+
 		for (int i = 0; i < configurationObject.getListCase().size(); i++) {
 			//simple.methodX();
 			source.getDataFromSource(i);

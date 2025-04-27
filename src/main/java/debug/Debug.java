@@ -1,5 +1,6 @@
 package debug;
 
+import database.PostgreSQL;
 import network.CmdCurl;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -39,6 +40,9 @@ public class Debug {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
 
+        PostgreSQL psl = new PostgreSQL();
+        psl.sendData("4568989898","78987", "444545454");
+        psl.closeConnection();
 //        String websiteUrl = "http://must-have.group/"; // Replace with the actual website URL you want to start crawling from
 //        String websiteUrl = "http://philosophy.by/";
 //        crawl(websiteUrl, websiteUrl);

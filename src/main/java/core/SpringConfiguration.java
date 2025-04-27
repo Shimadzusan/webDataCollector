@@ -67,7 +67,7 @@ public class SpringConfiguration {
 	public DestinationAlpha destinationAlpha() {return new DestinationAlpha();}
 
 	@Bean
-	public DestinationDataBase destinationDataBase() {return new DestinationDataBase();}
+	public DestinationDataBase destinationDataBase() throws IOException {return new DestinationDataBase(configurationAlpha());}
 	
 	@Bean
 	public DestinationFile destinationFile() throws FileNotFoundException, IOException {
@@ -84,6 +84,13 @@ public class SpringConfiguration {
 	public ControlModule controlModuleAtl() throws FileNotFoundException, IOException {
 		/* dependency injection instead @Autowired */
 		return new ControlModule(configurationAlpha(), sourceWebCrawler(), destinationDataBase());
+	}
+
+	@Bean (name = "controlModuleContact")
+	public ControlModule controlModuleContact() throws FileNotFoundException, IOException {
+		/* dependency injection instead @Autowired */
+		return new ControlModule(configurationAlpha(), sourceWebCrawler(), destinationDataBase());
+//		return new ControlModule(null, null, null);
 	}
 
 

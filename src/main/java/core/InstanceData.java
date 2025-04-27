@@ -1,19 +1,26 @@
 package core;
 
+import java.util.ArrayList;
+
 public class InstanceData {
 	String url,marker,regex,tableData,value,columnName,fileDestination,typeOfSourceExtractor,headers,algorithm;
+	ArrayList<String[]> crawlerData;
 
-	public String getTypeOfSourceExtractor() {return typeOfSourceExtractor;}
+	public synchronized ArrayList<String[]> getCrawlerData() {return crawlerData;}
 
-	public void setTypeOfSourceExtractor(String typeOfSourceExtractor) {this.typeOfSourceExtractor = typeOfSourceExtractor;}
+	public synchronized void setCrawlerData(ArrayList<String[]> crawlerData) {this.crawlerData = crawlerData;}
 
-	public String getAlgorithm() {return algorithm;}
+	public synchronized String getTypeOfSourceExtractor() {return typeOfSourceExtractor;}
 
-	public void setAlgorithm(String algorithm) {this.algorithm = algorithm;}
+	public synchronized void setTypeOfSourceExtractor(String typeOfSourceExtractor) {this.typeOfSourceExtractor = typeOfSourceExtractor;}
 
-	public String getHeaders() {return headers;}
+	public synchronized String getAlgorithm() {return algorithm;}
 
-	public void setHeaders(String headers) {this.headers = headers;}
+	public synchronized void setAlgorithm(String algorithm) {this.algorithm = algorithm;}
+
+	public synchronized String getHeaders() {return headers;}
+
+	public synchronized void setHeaders(String headers) {this.headers = headers;}
 
 	public synchronized String getFileDestination() {
 		return fileDestination;

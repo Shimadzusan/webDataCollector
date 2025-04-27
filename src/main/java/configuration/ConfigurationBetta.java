@@ -49,23 +49,25 @@ public class ConfigurationBetta implements Configuration  {
 //				System.out.println(casse.getMode());
 					
 				//init instanceData..
-				String[] csv = (dataOperation.readDataFromFile(casse.getFileConfig())).split("\\n");
-				
-				try {	
-					for (int j = 1; j < csv.length; j++) {
-						InstanceData id = new InstanceData();
-						String[] array = csv[j].split(";");
-						id.setUrl(array[0]);
-						id.setMarker(array[1]);
-						id.setRegex(array[2]);
-						id.setFileDestination(array[3]);
-						id.setTypeOfSourceExtractor(array[4]);
-						instanceData.add(id);
-					}
-				} catch(ArrayIndexOutOfBoundsException e) {}
-					
-				casse.setListInstanceData(instanceData);
-				listCase.add(casse);
+				if(!casse.getMode().contains("crawler")) {
+					String[] csv = (dataOperation.readDataFromFile(casse.getFileConfig())).split("\\n");
+
+					try {
+						for (int j = 1; j < csv.length; j++) {
+							InstanceData id = new InstanceData();
+							String[] array = csv[j].split(";");
+							id.setUrl(array[0]);
+							id.setMarker(array[1]);
+							id.setRegex(array[2]);
+							id.setFileDestination(array[3]);
+							id.setTypeOfSourceExtractor(array[4]);
+							instanceData.add(id);
+						}
+					} catch(ArrayIndexOutOfBoundsException e) {}
+
+					casse.setListInstanceData(instanceData);
+					listCase.add(casse);
+				}
 			}
 			this.configurationObject.setListCase(listCase);
 			

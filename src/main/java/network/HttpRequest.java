@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.MalformedURLException;
 import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -29,9 +30,11 @@ public class HttpRequest {
 				doc = Jsoup.connect(url).userAgent(userAgent).get();
 				webText = doc.text(); //Исходный текст
 			}
+			catch(MalformedURLException e) {
+				System.out.println("++++");}
 			catch(IOException e) {LOG.error(e);}
 			catch(java.lang.NullPointerException e) {LOG.error(e);}
-		return webText;
+        return webText;
 	}
 	
 	public String getHtml(String url) {

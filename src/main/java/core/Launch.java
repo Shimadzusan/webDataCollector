@@ -17,10 +17,12 @@ public class Launch {
 			/* next 3rd step, objects to applicationContext from SpringConfiguration.java */
 			AnnotationConfigApplicationContext springContext = new AnnotationConfigApplicationContext(SpringConfiguration.class);
 			//ControlModule controlModule = springContext.getBean("controlModule", ControlModule.class);
-			ControlModule controlModuleAlt = springContext.getBean("controlModuleAlt", ControlModule.class);
+			//ControlModule controlModuleAlt = springContext.getBean("controlModuleAlt", ControlModule.class);
 			int delay = springContext.getBean(SpringConfiguration.class).mainTimeInterval;// ..uses for day delay
-//			controlModule.action();
-			controlModuleAlt.action();
+			//controlModule.action();
+			//controlModuleAlt.action();
+			ControlModule controlModuleContact = springContext.getBean("controlModuleContact", ControlModule.class);
+			controlModuleContact.action();
 //			Thread.sleep(delay);
 //		}
 	}
